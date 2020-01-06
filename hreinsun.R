@@ -1,5 +1,5 @@
 
-data <- read.csv('data.csv',header = T,dec = ".",na.strings = "")
+data <- read.csv2('data.csv',header = T,dec = ".",na.strings = "")
 library(dplyr)
 library(magrittr)
 data <- data %>% filter_all(any_vars(!is.na(.)))  # This is to get rid of the empty rows

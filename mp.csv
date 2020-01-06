@@ -1,303 +1,303 @@
-"Station","Sample","Filter","Photo","Type","Colour","Colour2","Colour3","Colour4","Colour.Type","Length","Width","Area","Perimeter","Perimeter.2","Comments"
-"901","A",1,7,"Fibre","Purple",,,,,873.05,10.54,,,,
-"901","A",1,8,"Fibre","Brown",,,,,1886.4,9.94,,,,
-"901","A",1,9,"Paint/fragment","Blue/grey",,,,,192.53,83.54,12579,"488.04",,
-"901","A",1,10,"Paint","Blue",,,,,49.02,20.57,1775,"149.00",,
-"901","A",1,3,"Fibre","Transparent/purple",,,,,1185,12.67,,,,
-"901","B",2,1,"Fibre","Light green",,,,,2738.97,313.21,867007.01,"6111.10",,"Rope from the boat?"
-"901","B",2,2,"Fibre","Brown/black",,,,,3007,14.36,,,,
-"901","C",3,0,"Fibre","Black",,,,,1085.82,21.56,,,,
-"901","C",3,0,"Fibre","Black",,,,,5332.5,21.56,,,,
-"901","C",3,1,"Fibre","Black",,,,,1784.05,14.49,,,,
-"901","C",3,2,"Fibre","Black",,,,,1197.24,3.12,,,,
-"901","C",3,2,"Fibre","Light green",,,,,240,66.97,,,,"Rope from the boat?"
-"901","C",3,2,"Fibre","Light green",,,,,163.49,85.65,,,,"Rope from the boat?"
-"901","C",3,3,"Fragment","Blue",,,,,88.22,34.83,1111.37,"238.80",,
-"901","C",3,4,"Fibre","Purple",,,,,354.82,3.12,,,,
-"901","C",3,5,"Paint","Blue",,,,,178.72,343.84,35497.35,"965.54",,"Paint from boat"
-"901","C",3,6,"Fibre","Blue",,,,,462.47,9,,,,
-"901","C",3,7,"Fragment","Blue",,,,,252.49,81.05,13058.68,"605.92",,"Piece of bottle"
-"901","C",3,8,"Fibre","Blue",,,,,513.74,22.96,,,,
-"901","C",3,9,"Fibre","Blue",,,,,414.51,38.96,,,,
-"901","C",3,10,"Fibre","Blue",,,,,1312.4,17.84,,,,
-"902","A",4,0,"Fibre","Purple",,,,,451.29,11.3,,,,
-"902","A",4,1,"Fibre","Light green",,,,,3915.47,43.02,,,,"Rope from boat"
-"902","B",5,0,"Fibre","Black/purple",,,,,372.78,6.35,,,,
-"902","B",5,1,"Fibre","White",,,,,1439.19,113.68,,,,
-"902","C",6,,,,,,,,,,,,,"nothing found"
-"903","A",7,0,"Fragment","Transparent/blue",,,,,608.48,191.43,104489.44,"657.30",,"Piece of buffer bottle?"
-"903","A",7,1,"Fragment","Transparent/blue",,,,,868.33,189.09,135662.17,"842.30",,"Piece of buffer bottle?"
-"903","A",7,2,"Fragment","Transparent/blue",,,,,1110.83,207.62,243155.38,"645.26",,"Piece of buffer bottle?"
-"903","B",8,0,"Fibre","Transparent",,,,,1661.13,5.71,,,,
-"903","B",8,1,"Fibre","Blue",,,,,2158.25,20.6,,,,
-"903","B",8,2,"Fibre","Light purple",,,,,1087.49,12.83,,,,
-"903","B",8,3,"Fibre","Brown",,,,,673.35,11.43,,,,
-"903","C",9,0,"Fibre","Brown",,,,,887.05,8.15,,,,
-"903","C",9,1,"Fibre","Brown",,,,,574.15,10.39,,,,
-"904","A",10,0,"Fibre","Transparent/blue",,,,,942.1,9.27,,,,
-"904","B",11,0,"Fibre","Transparent/blue",,,,,1781,12.08,,,,
-"904","B",11,2,"Fibre","Blue",,,,,433.41,19.1,,,,
-"904","B",11,4,"Fibre","Blue",,,,,1889.24,16.27,,,,
-"904","B",11,5,"Fibre","Transparent/blue",,,,,890.95,12.18,,,,
-"904","B",11,6,"Fibre","Transparent/blue",,,,,2846.56,9.67,,,,
-"904","C",12,0,"Fibre","Brown/black",,,,,385.18,14.88,,,,
-"904","C",12,1,"Fibre","Purple",,,,,1182.18,5.26,,,,
-"904","C",12,2,"Fibre","Brown",,,,,774.53,13.76,,,,
-"905","A",13,,,,,,,,,,,,,"Nothing found"
-"905","B",14,,,,,,,,,,,,,"Nothing found"
-"905","C",15,,,,,,,,,,,,,"Nothing found"
-"906","A",16,0,"Fibre","Purple",,,,,258.94,20.38,,,,
-"906","A",16,1,"Fibre","Purple",,,,,397.93,10.55,,,,
-"906","A",16,2,"Fibre","Purple",,,,,256.01,7.04,,,,"Same as St906-A 01"
-"906","A",16,3,"Fibre","Purple/transparent",,,,,1020.68,12.18,,,,
-"906","A",16,4,"Fibre","Purple",,,,,429.08,10.1,,,,
-"906","A",16,5,"Fibre","Light blue",,,,,516.33,12.12,,,,
-"906","A",16,6,"Fibre","Light green",,,,,396.95,31.49,,,,"Rope from boat?"
-"906","A",16,7,"Fibre","Purple",,,,,406.76,31.1,,,,
-"906","B",17,0,"Fragment","Light green",,,,,179.49,115.59,199.79,"179.47",,"Piece of rope?"
-"906","B",17,1,"Fibre","Black",,,,,809.4,7.14,,,,
-"906","C",18,0,"Fibre","Black",,,,,2224.38,11.71,,,,
-"906","C",18,1,"Fibre","Black",,,,,1001.28,5.28,,,,
-"906","C",18,2,"Fibre","Black",,,,,328.62,25.87,,,,
-"906","C",18,3,"Fibre","Black/purple",,,,,432.68,4.68,,,,
-"906","C",18,4,"Fibre","Transparent/blue",,,,,690.81,9.37,,,,
-"907","A",19,0,"Fibre","Light green",,,,,1540.15,54.47,,,,"Rope from the boat?"
-"907","A",19,0,"Fibre","Light green",,,,,1071.07,68.42,,,,"Rope from the boat?"
-"907","A",19,0,"Fibre","Red transparent",,,,,468.38,17.3,,,,
-"907","B",20,0,"Fragment","Light green",,,,,249.9,54.08,53.01,"54.08",,
-"907","C",21,0,"Fragment","White",,,,,390,320.14,125635.62,"1536.36",,"Piece of filter?"
-"907","C",21,0,"Fragment","White",,,,,237.61,183.14,49841.21,"1026.26",,"Piece of filter?"
-"908","A",22,0,"Fibre","Transparent/blue",,,,,995.29,16.53,,,,
-"908","A",22,1,"Fibre","Light red",,,,,532.03,15.71,,,,
-"908","A",22,2,"Fragment","White",,,,,1280.33,91.38,104038,"2848.23",,
-"908","B",23,1,"Fragment","White",,,,,1086.36,90,66170.94,"2251.38",,"Same as in St908-A 02"
-"908","B",23,2,"Fibre","Blue",,,,,2200.91,6.97,,,,
-"908","B",23,2,"Fibre","Blue",,,,,1513.96,6.97,,,,
-"908","B",23,3,"Fibre","Blue",,,,,938.94,12.99,,,,
-"908","B",23,4,"Fragment","White",,,,,419.08,56.21,35273.76,"1200.09",,"Same as in St908-A 02"
-"908","C",24,0,"Fibre","Black",,,,,4980.94,13.84,,,,
-"908","C",24,1,"Fibre","Red",,,,,2767.09,11.2,,,,
-"908","C",24,2,"Fibre","Red",,,,,932.26,22.14,,,,
-"909","A",25,0,"Fibre","Black",,,,,5299.13,14.86,,,,
-"909","A",25,1,"Fibre","Transparent/blue",,,,,1405.56,17.4,,,,
-"909","A",25,2,"Fragment","Light blue",,,,,353.64,154.87,51868.65,"943.48",,
-"909","A",25,3,"Fibre","Black",,,,,682.83,9.97,,,,
-"909","A",25,4,"Fibre","Transparent/blue",,,,,2004.4,12.46,,,,
-"909","A",25,5,"Fragment","Black",,,,,335.35,38.94,32427.23,"1096.86",,"Looks like rubber"
-"909","A",25,6,"Fragment","Black",,,,,614.97,64.81,52713.66,"2269.14",,"Looks like rubber"
-"909","A",25,7,"Fibre","Blue",,,,,1701.44,17.4,,,,
-"909","B",26,0,"Fragment","Black",,,,,664.68,366.77,225452.71,"3489.48",,"Looks like rubber"
-"909","B",26,1,"Fibre","Transparent/blue",,,,,2015.33,14.35,,,,
-"909","B",26,2,"Fibre","Brown/red",,,,,1014.46,14.27,,,,
-"909","B",26,3,"Fibre","Transparent/blue",,,,,2811.52,12.57,,,,
-"909","B",26,4,"Fibre","Back",,,,,588.78,31.75,,,,
-"909","C",27,0,"Fibre","Red/brown",,,,,5434.15,15.59,,,,
-"909","C",27,1,"Fibre","Blue",,,,,1722.02,10.42,,,,
-"909","C",27,2,"Fibre","Red/brown",,,,,820.51,4.18,,,,
-"910","A",28,0,"Fibre","Blue",,,,,1950.35,7.61,,,,
-"910","A",28,1,"Fibre","Red",,,,,703.53,9.46,,,,
-"910","A",28,2,"Fibre","Transparent/blue",,,,,1593.95,16.03,,,,
-"910","A",28,3,"Fibre","Purple",,,,,669.05,7.37,,,,
-"910","A",28,6,"Fragment","Red",,,,,398.85,61.38,24097.02,"900.23",,
-"910","A",28,7,"Fibre","Purple",,,,,638.52,12.17,,,,
-"910","A",28,8,"Fibre","Purple",,,,,941.32,7.61,,,,
-"910","A",28,9,"Fibre","Purple",,,,,420.16,10.96,,,,
-"910","A",28,10,"Fibre","Transparent/blue",,,,,816.28,8.21,,,,
-"910","A",28,10,"Fibre","Purple",,,,,1514.65,5.67,,,,
-"910","A",28,10,"Fibre","Red",,,,,675.28,17.2,,,,
-"910","B",29,0,"Fibre","Brown",,,,,500.43,3.77,,,,
-"910","B",29,0,"Fibre","Brown",,,,,1273.35,3.77,,,,
-"910","B",29,1,"Fibre","Brown",,,,,633.24,11.96,,,,"Looks a bit like a hair"
-"910","B",29,2,"Fibre","Black",,,,,1111.11,5.06,,,,
-"910","B",29,3,"Fibre","Black/brown",,,,,610.25,2.53,,,,
-"910","B",29,4,"Fibre","Black/brown",,,,,902.37,8.19,,,,
-"910","B",29,5,"Fibre","Black/brown",,,,,355.41,5.66,,,,
-"910","B",29,6,"Paint","Blue",,,,,169.66,56.6,9076.55,"411.25",,
-"910","B",29,7,"Fibre","Transparent/blue",,,,,1192.67,5.66,,,,
-"910","B",29,7,"Fibre","Transparent/blue",,,,,2834.35,11.37,,,,
-"910","B",29,8,"Fibre","Transparent/red",,,,,2631.09,15.09,,,,
-"910","C",30,0,"Paint",,,,,,,,,,,"Lots of paint from the boat"
-"910","C",30,1,"Fibre","Brown/black",,,,,1010.94,3.9,,,,
-"910","C",30,2,"Fibre","Brown/black",,,,,1527.51,6.52,,,,
-"910","C",30,3,"Fibre","Brown/black",,,,,489.48,8.47,,,,
-"910","C",30,4,"Fibre","Brown/black",,,,,292.88,9.14,,,,
-"911","A",31,0,"Fragment","Black/transparent",,,,,407.56,66.69,37252.23,"997.50",,"Looks like rubber"
-"911","A",31,1,"Fibre","Blue",,,,,1176.64,6.5,,,,
-"911","A",31,2,"Fibre","Transparent/blue",,,,,1049.64,13,,,,
-"911","A",31,3,"Fibre","Purple",,,,,2287.41,15.61,,,,
-"911","B",32,0,"Fragment","Blue",,,,,243.02,31.89,10429.67,"608.42",,
-"911","B",32,1,"Fragment","Black/transparent",,,,,479.89,200.64,54301.12,"1459.94",,
-"911","C",33,0,"Fragment","Purple",,,,,198.76,105.11,19508.29,"577.88",,"Looks like glas/crystal"
-"911","C",33,2,"Fibre","Brown",,,,,485.77,7.79,,,,
-"911","C",33,3,"Fragment","Purple",,,,,303.68,202.3,54063.92,"909.81",,"Looks like glas/crystal"
-"910+911","+Blank",34,,,,,,,,,,,,,"nothing found"
-"","Blank",0,0,"Fibre","Black",,,,,823.15,10.31,,,,"Blank from the clean bench"
-"912","A",35,0,"Fibre","Black",,,,,1039.23,7.41,,,,
-"912","A",35,1,"Fibre","Purple/black",,,,,890.22,6.99,,,,
-"912","A",35,2,"Fibre","Transparent/purple",,,,,997.14,8.04,,,,
-"912","A",35,3,"Fibre","Purple/black",,,,,369.83,2.47,,,,
-"912","A",35,4,"Fibre","Light blue",,,,,2462.95,9.88,,,,
-"912","B",36,,,,,,,,,,,,,"Nothing found"
-"912","C",37,,,,,,,,,,,,,"Nothing found"
-"912","Blank",49,2,"Fibre","transparent",,,,,787.38,17.96,,,,
-"912","Blank",49,3,"Fibre","transparent",,,,,1411.55,22.58,,,,
-"913","A",38,0,"Fibre","Transparent/blue",,,,,476.25,10.49,,,,
-"913","A",38,1,"Fibre","Transparent/red",,,,,1178.13,26.08,,,,
-"913","A",38,2,"Paint","Blue",,,,,,,,,,"Paint from boat"
-"913","A",38,2,"Paint","Blue",,,,,,,,,,"Paint from boat"
-"913","A",38,3,"Paint","Bright red",,,,,300.98,145.6,45539.28,"1037.84",,
-"913","B",39,0,"Fragment","Purple",,,,,221.37,27.44,8748.33,"527.19",,"Looks like glas/crystal"
-"913","B",39,1,"Fibre","Blue",,,,,923.74,12.27,,,,
-"913","C",40,0,"Fibre","Transparent/blue",,,,,718.48,11.8,,,,
-"913","Blank",41,0,"Fibre","Red/transparent",,,,,728.74,20.47,,,,
-"913","Blank",41,1,"Fibre","Purple/transparent",,,,,719.13,18.47,,,,
-"914","A",42,0,"Fragment","Purple",,,,,206.49,68.69,13863.66,"539.40",,"Looks like glas/crystal"
-"914","A",42,1,"Fragment","Purple",,,,,252.69,102.88,26127.66,"669.79",,"Looks like glas/crystal"
-"914","A",42,2,"Fibre","Transparent/blue",,,,,2654.19,18.25,,,,
-"914","A",42,3,"Fibre","Transparent/blue",,,,,1155.74,14.6,,,,
-"914","A",42,4,"Fibre","Transparent/blue",,,,,1905.98,23.39,,,,
-"914","A",42,5,"Fragment","Transparent/purple",,,,,200.99,65.93,6945.58,"578.54",,
-"914","A",42,6,"Fibre","Transparent/red",,,,,2510.15,9.41,,,,
-"914","A",42,7,"Fragment","Transparent/purple",,,,,274.22,28.83,10092.94,"691.55",,
-"914","A",42,8,"Fibre","Purple",,,,,1412.59,7.42,,,,
-"914","B",43,2,"Fibre","Red",,,,,7042.66,18.24,,,,
-"914","B",43,3,"Fibre","Transparent/blue",,,,,873.02,22.66,,,,
-"914","B",43,4,"Fibre","Black",,,,,1663.17,12.08,,,,
-"914","B",43,5,"Fragment","Black/transparent",,,,,156.81,84.02,13783.18,"610.13",,
-"914","B",43,6,"Fibre","Red/brown",,,,,779.35,13,,,,
-"914","B",43,7,"Fibre","Transparent/blue",,,,,590.72,37.82,,,,
-"914","C",44,0,"Fibre","Light green/blue",,,,,2535.49,544.59,,,,"From boat?"
-"914","C",44,1,"Fibre","Transparent/blue",,,,,636.51,11.1,,,,
-"914","C",44,2,"Fibre","Transparent/blue",,,,,1272.33,11.54,,,,
-"914","C",44,3,"Fibre","Transparent/blue",,,,,2012.1,7.73,,,,
-"914","C",44,5,"Fibre","Red",,,,,3440.73,11.1,,,,
-"914","C",44,5,"Fragment","Transparent/black",,,,,626.56,103.28,181437.06,"2659.71",,"Looks like rubber"
-"914","C",44,6,"Fibre","Transparent/blue",,,,,3697.98,16.32,,,,
-"914","C",44,7,"Fibre","Red",,,,,2106.02,17.9,,,,
-"914","C",44,8,"Fragment","Transparent/black",,,,,360.33,52.26,26159.81,"1041.55",,"Looks like rubber"
-"914","C",44,9,"Fibre","Transparent/blue",,,,,443.98,8.46,,,,
-"914","C",44,9,"Fibre","Transparent/blue",,,,,354.15,5.47,,,,
-"914","C",44,10,"Fibre","Transparent/blue",,,,,1658.63,15.46,,,,
-"914","C",44,11,"Fibre","Transparent/blue",,,,,2133.63,19.05,,,,
-"914","C",44,12,"Fibre","Transparent/blue",,,,,3924.31,13.6,,,,
-"914","C",44,13,"Fibre","Red",,,,,1404.27,18.25,,,,
-"914","C",44,14,"Fibre","Blue",,,,,1020.71,22.42,,,,
-"914","Blank",45,0,"Fibre","Transparent",,,,,2922.02,40.36,,,,"This would have not been detected on a normal filter"
-"914","Blank",45,1,"Fibre","Transparent/redish",,,,,1877.33,5.85,,,,"This would have not been detected on a normal filter"
-"914","Blank",45,2,"Fibre","Transparent/blue",,,,,1044.96,11.61,,,,"This fibre is often found in samples!!"
-"914","Blank",45,3,"Fibre","Transparent/redish",,,,,769.08,4.85,,,,
-"914","Blank",45,4,"Fibre","Transparent/redish",,,,,1136.2,4.22,,,,"Same as 1 and 3"
-"914","Blank",45,5,"Fibre","Transparent/redish",,,,,1067.04,4.68,,,,"Same as 1,3 and 4"
-"915","A",46,,"Fibre","Blue",,,,,1799.74,27.79,,,,"Looks like propper plastic"
-"915","A",46,1,"Fibre","Blue",,,,,259.19,16.64,,,,"Looks like propper plastic"
-"915","A",46,2,"Fibre","Transparent",,,,,858.49,19.6,,,,
-"915","A",46,3,"Fibre","red",,,,,2384.73,11.77,,,,
-"915","A",46,3,"Fragment","Transparent/black",,,,,367.39,83.88,39800.94,"958.55",,
-"915","B",47,,"Fibre","Black",,,,,356.74,8.87,,,,
-"915","B",47,1,"Fibre","Black",,,,,1647.49,6.84,,,,
-"915","B",47,2,"Fibre","Blue",,,,,437.12,12.74,,,,
-"915","C",48,,"Fibre","Transparent",,,,,1168.34,16.23,,,,
-"915","C",48,1,"Fibre","Black",,,,,440.23,8.5,,,,
-"915","C",48,2,"Fibre","Blue",,,,,659.79,16.31,,,,
-"915","C",48,3,"Fibre","Black",,,,,555.06,13.27,,,,
-"915","C",48,4,"Fibre","Black",,,,,5357.72,8.94,,,,
-"915","C",48,5,"Fibre","Blue",,,,,1074.05,8.94,,,,"sometimes seen on blanks"
-"915","C",48,6,"Fibre","Black",,,,,644.34,12.16,,,,
-"915","C",48,7,"Fibre","Blue",,,,,392.89,19.33,,,,
-"915","Blanksea",50,0,"Fibre","Transparent",,,,,3580.68,7.12,,,,"NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further."
-"915","Blank",51,,,,,,,,,,,,,"nothing"
-"916","A",52,,"Fibre","Purple/black",,,,,925.11,9.69,,,,
-"916","A",52,1,"Fibre","Purple/black",,,,,584.53,13.21,,,,
-"916","B",53,,,,,,,,,,,,,"nothing"
-"916","C",54,1,"Fibre","Black",,,,,774.67,9.92,,,,
-"916","C",54,2,"Fragment","White",,,,,323.6,126.3,44284.11,"922.45",,
-"916","Blanksea",55,0,"Fibre","Transparent",,,,,1666.34,9.53,,,,"NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further."
-"916","Blanksea",55,2,"Fibre","Transparent",,,,,656.09,16.93,,,,
-"916","Blank",56,,,,,,,,,,,,,"nothing"
-"917","A",57,,,,,,,,,,,,,"lost sample"
-"917","B",58,,,,,,,,,,,,,"impossible to see thourgh"
-"917","C",59,,,,,,,,,,,,,"impossible to see thourgh"
-"917","Blanksea",61,1,"Fibre","Transparent/bluish",,,,,826.69,20.09,,,,"NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further."
-"917","Blanksea",61,,"Fibre","Blue",,,,,186.87,9.02,,,,"NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further."
-"917","Blank",60,,,,,,,,,,,,,"nothing"
-"918","A",67,,"Fibre","black",,,,,2042.58,7.38,,,,"looks like plastic"
-"918","A",67,1,"Paint","blue",,,,,264.56,284.49,63380.45,"948.92",,"paint from boat"
-"918","A",67,2,"Fibre","faint blue/transparent",,,,,1219.91,17.01,,,,"often in samples/not plastic?/contamination?"
-"918","A",67,3,"Paint","blue",,,,,122.87,79.94,10530.51,"425.75",,"paint from boat"
-"918","A",67,4,"Fibre","orange",,,,,583.84,21.59,,,,
-"918","A",67,5,"Fibre","black",,,,,211.92,8.28,,,,"looks like rubber"
-"918","B",68,,"Fibre","black",,,,,1400.88,10.54,,,,
-"918","B",68,1,"Fragment","faint blue/transparent",,,,,246.6,55.45,13601.35,"629.64",,"often in samples/not plastic?/contamination?"
-"918","C",69,,"Fibre","faint blue/transparent",,,,,1734.02,6.7,,,,"often in samples/not plastic?/contamination?"
-"918","C",69,1,"Fibre","Black",,,,,659.23,12.1,,,,"real plastic"
-"918","C",69,2,"Fibre","faint blue/transparent",,,,,1861.01,80.4,,,,"often in samples/not plastic?/contamination?"
-"918","C",69,2,"Fibre","faint blue/transparent",,,,,339.94,11.06,,,,"often in samples/not plastic?/contamination?"
-"918","C",69,2,"Fibre","faint blue/transparent",,,,,1292.65,23.85,,,,"often in samples/not plastic?/contamination?"
-"918","C",69,3,"Fragment","faint blue green/transparent",,,,,325.24,181.41,51923.5,"904.93",,"often in samples/not plastic?/contamination?"
-"918","C",69,4,"Fibre","faint blue",,,,,1263.32,26.41,,,,"often in samples/not plastic?/contamination?"
-"918","C",69,5,"Fibre","brown/transparent",,,,,2435.76,3.69,,,,
-"918","C",69,6,"Fibre","faint blue",,,,,794.72,29.5,,,,"often in saples, rope?"
-"918","C",69,7,"Fibre","faint blue",,,,,2845.99,86.86,,,,"often in saples, rope?"
-"918","C",69,8,"Fibre","faint blue",,,,,565.06,42.02,,,,"often in saples, rope?"
-"918","C",69,8,"Fibre","faint blue",,,,,310.62,46.29,,,,"often in saples, rope?"
-"918","Blanksea",62,,"Fibre","Transparent",,,,,731.51,9.8,,,,
-"918","Blanksea",62,,"Fibre","Blue",,,,,61.85,8.52,,,,
-"918","Blanksea",62,,"Fibre","Blue",,,,,394.4,28.83,,,,
-"919","A",70,,"Fragment/Paint","orange",,,,,129.95,118.36,9572.82,"368.84",,"paint from boat?"
-"919","A",70,2,"Fibre","blue/purple",,,,,768.99,9.17,,,,"new color"
-"919","A",70,4,"Fibre","brown/transparent",,,,,2997.66,18.63,,,,"natural?"
-"919","A",70,5,"Fragment","faint blue",,,,,130.51,100.32,13747.48,"496.52",,"often in samples/not plastic?/contamination?"
-"919","A",70,7,"Fragment","faint blue",,,,,128.96,355.73,37313.16,"919.43",,"often in samples/not plastic?/contamination?"
-"919","A",70,8,"Fibre","black",,,,,1204.7,8.2,,,,"plastic"
-"919","A",70,9,"Fibre","balck",,,,,1753.45,8.2,,,,"plastic"
-"919","A",70,10,"Fibre","black",,,,,1274.99,14.64,,,,"plastic"
-"919","B",71,,"Fragment","faint blue",,,,,146.65,56.48,9315.24,"421.38",,"often in samples/not plastic?/contamination?"
-"919","B",71,2,"Fibre","faint blue green/transparent",,,,,550.18,11.91,,,,"often in samples/not plastic?/contamination?"
-"919","B",71,3,"Fragment","transparent/blueish",,,,,691.11,129.78,114407.06,"1782.34",,"piece of rope??"
-"919","B",71,4,"Fragment","faint blue",,,,,780.03,501.19,260712.88,"2272.93",,"often in samples/not plastic?/contamination?"
-"919","B",71,5,"Fibre","black",,,,,927.57,20.38,,,,"rubber?"
-"919","B",71,6,"Fragment","faint blue",,,,,151.86,124.62,17495.78,"526.93",,"often in samples/not plastic?/contamination?"
-"919","C",72,,"Fibre","blue/purple",,,,,818.12,13.8,,,,
-"919","C",72,,"Fibre","transparent blue",,,,,921.9,13.92,,,,"often in samples/not plastic?/contamination?"
-"919","C",72,1,"Fibre","white",,,,,4127.52,48.87,,,,"bone?"
-"919","Blanksea",63,1,"Fibre","Red",,,,,400.25,8.46,,,,
-"919","Blanksea",63,2,"Fibre","transparent",,,,,1813.05,6.46,,,,
-"919","Blanksea",63,3,"Fibre","black",,,,,246.53,6.43,,,,
-"919","Blanksea",63,4,"Fibre","black",,,,,1887.75,11.96,,,,
-"919","Blanksea",63,5,"Fibre","black",,,,,1035.18,12.92,,,,
-"919","Blanksea",63,7,"Fibre","transparent",,,,,2495.89,18.44,,,,
-"919","Blanksea",63,8,"Fibre","transparent",,,,,1257.52,15.33,,,,
-"920","A",73,,,,,,,,,,,,,"nothing"
-"920","B",74,,,,,,,,,,,,,"nothing"
-"920","C",75,,"Fibre","black",,,,,2435.77,9.91,,,,
-"920","C",75,1,"Fibre","transparent/grey",,,,,1992.67,17.01,,,,"natural?"
-"920","Blanksea",64,,"Fibre","trasparent",,,,,915.69,15.46,,,,
-"920","Blanksea",64,1,"Fibre","black",,,,,2071.61,13.08,,,,
-"918920","Blank",66,2,"Fibre","black",,,,,143.26,18,,,,
-"921","A",76,,"Fibre","black",,,,,729.94,36.96,,,,"rubber?"
-"921","A",76,1,"Fibre","black",,,,,186.78,7.33,,,,"natural?"
-"921","B",77,1,"Fibre","faint blue",,,,,3079.43,56.61,,,,"piece of rope??"
-"921","B",77,2,"Fibre","faint blue",,,,,364.44,75.89,,,,"piece of rope??"
-"921","B",77,3,"Fibre","faint blue",,,,,445.69,39.82,,,,"piece of rope??"
-"921","C",78,,"Fibre","grey/transparent",,,,,1450.71,13.75,,,,
-"921","C",78,1,"Fibre","faint blue",,,,,2820.29,23.98,,,,"piece of rope??"
-"921","Blanksea",65,,"Fibre","transparent",,,,,2302.67,19.27,,,,
-"922","A",79,1,"Fibre","black",,,,,331,15.17,,,,
-"922","A",79,2,"Fibre","faint blue",,,,,393.44,36.66,,,,"piece of rope??"
-"922","A",79,4,"Fragment","blue",,,,,287.3,158.54,46121.39,"928.22",,"often in samples/not plastic?/contamination?"
-"922","A",79,6,"Fragment","blue",,,,,418.77,174.98,57254.96,"1043.56",,"often in samples/not plastic?/contamination?"
-"922","A",79,8,"Fibre","grey/transparent",,,,,2325.67,18.65,,,,
-"922","B",80,,"Fragment","blue",,,,,108.74,44.56,5601.56,"313.49",,"often in samples/not plastic?/contamination?"
-"922","B",80,1,"Fibre","grey/transparent",,,,,1992.85,12.84,,,,"natural"
-"922","B",80,2,"Fibre","black",,,,,1102.57,8.24,,,,
-"922","B",80,3,"Fragment","dark blue",,,,,323.66,191.44,61344.87,"1025.17",,
-"922","B",80,4,"Fibre","brown",,,,,1451.64,12.84,,,,
-"922","C",81,,"Fibre","Black",,,,,1304.69,16.93,,,,
-"922","C",81,1,"Fibre","Black",,,,,593.54,58.38,,,,"rubber"
-"922","C",81,1,"Paint","Blue",,,,,297.37,158.42,45751.43,"912.98",,"paint from boat?"
-"922","C",81,2,"Fibre","Grey",,,,,1078.12,18.45,,,,"natural?"
-"922","C",81,3,"Paint","Blue",,,,,226.13,162.72,29248.8,"662.75",,"paint from boat?"
-"922","C",81,4,"Fibre","Grey",,,,,4411.12,18.61,,".",,"natural?"
-"922","C",81,5,"Fibre","Blue",,,,,798.01,49.74,,,,"piece of rope??"
-"922","Blanksea",67,,,,,,,,,,,,,"nothing"
-"921922","Blank",68,,,,,,,,,,,,,"nothing"
+Station,Sample,Filter,Photo,Type,Type2,Colour,Colour2,Colour3,Colour4,Col.Type,Length,Width,Area,Perimeter,Perimeter.2,Comments
+901,A,1,7,Fibre,,Purple,,,,,873.05,10.54,,,,
+901,A,1,8,Fibre,,Brown,,,,,1886.4,9.94,,,,
+901,A,1,9,Paint/fragment,,Blue/grey,,,,,192.53,83.54,12579,488.04,,
+901,A,1,10,Paint,,Blue,,,,,49.02,20.57,1775,149,,
+901,A,1,3,Fibre,,Transparent/purple,,,,,1185,12.67,,,,
+901,B,2,1,Fibre,,Light green,,,,,2738.97,313.21,867007.01,6111.1,,Rope from the boat?
+901,B,2,2,Fibre,,Brown/black,,,,,3007,14.36,,,,
+901,C,3,0,Fibre,,Black,,,,,1085.82,21.56,,,,
+901,C,3,0,Fibre,,Black,,,,,5332.5,21.56,,,,
+901,C,3,1,Fibre,,Black,,,,,1784.05,14.49,,,,
+901,C,3,2,Fibre,,Black,,,,,1197.24,3.12,,,,
+901,C,3,2,Fibre,,Light green,,,,,240,66.97,,,,Rope from the boat?
+901,C,3,2,Fibre,,Light green,,,,,163.49,85.65,,,,Rope from the boat?
+901,C,3,3,Fragment,,Blue,,,,,88.22,34.83,1111.37,238.8,,
+901,C,3,4,Fibre,,Purple,,,,,354.82,3.12,,,,
+901,C,3,5,Paint,,Blue,,,,,178.72,343.84,35497.35,965.54,,Paint from boat
+901,C,3,6,Fibre,,Blue,,,,,462.47,9,,,,
+901,C,3,7,Fragment,,Blue,,,,,252.49,81.05,13058.68,605.92,,Piece of bottle
+901,C,3,8,Fibre,,Blue,,,,,513.74,22.96,,,,
+901,C,3,9,Fibre,,Blue,,,,,414.51,38.96,,,,
+901,C,3,10,Fibre,,Blue,,,,,1312.4,17.84,,,,
+902,A,4,0,Fibre,,Purple,,,,,451.29,11.3,,,,
+902,A,4,1,Fibre,,Light green,,,,,3915.47,43.02,,,,Rope from boat
+902,B,5,0,Fibre,,Black/purple,,,,,372.78,6.35,,,,
+902,B,5,1,Fibre,,White,,,,,1439.19,113.68,,,,
+902,C,6,,,,,,,,,,,,,,nothing found
+903,A,7,0,Fragment,,Transparent/blue,,,,,608.48,191.43,104489.44,657.3,,Piece of buffer bottle?
+903,A,7,1,Fragment,,Transparent/blue,,,,,868.33,189.09,135662.17,842.3,,Piece of buffer bottle?
+903,A,7,2,Fragment,,Transparent/blue,,,,,1110.83,207.62,243155.38,645.26,,Piece of buffer bottle?
+903,B,8,0,Fibre,,Transparent,,,,,1661.13,5.71,,,,
+903,B,8,1,Fibre,,Blue,,,,,2158.25,20.6,,,,
+903,B,8,2,Fibre,,Light purple,,,,,1087.49,12.83,,,,
+903,B,8,3,Fibre,,Brown,,,,,673.35,11.43,,,,
+903,C,9,0,Fibre,,Brown,,,,,887.05,8.15,,,,
+903,C,9,1,Fibre,,Brown,,,,,574.15,10.39,,,,
+904,A,10,0,Fibre,,Transparent/blue,,,,,942.1,9.27,,,,
+904,B,11,0,Fibre,,Transparent/blue,,,,,1781,12.08,,,,
+904,B,11,2,Fibre,,Blue,,,,,433.41,19.1,,,,
+904,B,11,4,Fibre,,Blue,,,,,1889.24,16.27,,,,
+904,B,11,5,Fibre,,Transparent/blue,,,,,890.95,12.18,,,,
+904,B,11,6,Fibre,,Transparent/blue,,,,,2846.56,9.67,,,,
+904,C,12,0,Fibre,,Brown/black,,,,,385.18,14.88,,,,
+904,C,12,1,Fibre,,Purple,,,,,1182.18,5.26,,,,
+904,C,12,2,Fibre,,Brown,,,,,774.53,13.76,,,,
+905,A,13,,,,,,,,,,,,,,Nothing found
+905,B,14,,,,,,,,,,,,,,Nothing found
+905,C,15,,,,,,,,,,,,,,Nothing found
+906,A,16,0,Fibre,,Purple,,,,,258.94,20.38,,,,
+906,A,16,1,Fibre,,Purple,,,,,397.93,10.55,,,,
+906,A,16,2,Fibre,,Purple,,,,,256.01,7.04,,,,Same as St906-A 01
+906,A,16,3,Fibre,,Purple/transparent,,,,,1020.68,12.18,,,,
+906,A,16,4,Fibre,,Purple,,,,,429.08,10.1,,,,
+906,A,16,5,Fibre,,Light blue,,,,,516.33,12.12,,,,
+906,A,16,6,Fibre,,Light green,,,,,396.95,31.49,,,,Rope from boat?
+906,A,16,7,Fibre,,Purple,,,,,406.76,31.1,,,,
+906,B,17,0,Fragment,,Light green,,,,,179.49,115.59,199.79,179.47,,Piece of rope?
+906,B,17,1,Fibre,,Black,,,,,809.4,7.14,,,,
+906,C,18,0,Fibre,,Black,,,,,2224.38,11.71,,,,
+906,C,18,1,Fibre,,Black,,,,,1001.28,5.28,,,,
+906,C,18,2,Fibre,,Black,,,,,328.62,25.87,,,,
+906,C,18,3,Fibre,,Black/purple,,,,,432.68,4.68,,,,
+906,C,18,4,Fibre,,Transparent/blue,,,,,690.81,9.37,,,,
+907,A,19,0,Fibre,,Light green,,,,,1540.15,54.47,,,,Rope from the boat?
+907,A,19,0,Fibre,,Light green,,,,,1071.07,68.42,,,,Rope from the boat?
+907,A,19,0,Fibre,,Red transparent,,,,,468.38,17.3,,,,
+907,B,20,0,Fragment,,Light green,,,,,249.9,54.08,53.01,54.08,,
+907,C,21,0,Fragment,,White,,,,,390,320.14,125635.62,1536.36,,Piece of filter?
+907,C,21,0,Fragment,,White,,,,,237.61,183.14,49841.21,1026.26,,Piece of filter?
+908,A,22,0,Fibre,,Transparent/blue,,,,,995.29,16.53,,,,
+908,A,22,1,Fibre,,Light red,,,,,532.03,15.71,,,,
+908,A,22,2,Fragment,,White,,,,,1280.33,91.38,104038,2848.23,,
+908,B,23,1,Fragment,,White,,,,,1086.36,90,66170.94,2251.38,,Same as in St908-A 02
+908,B,23,2,Fibre,,Blue,,,,,2200.91,6.97,,,,
+908,B,23,2,Fibre,,Blue,,,,,1513.96,6.97,,,,
+908,B,23,3,Fibre,,Blue,,,,,938.94,12.99,,,,
+908,B,23,4,Fragment,,White,,,,,419.08,56.21,35273.76,1200.09,,Same as in St908-A 02
+908,C,24,0,Fibre,,Black,,,,,4980.94,13.84,,,,
+908,C,24,1,Fibre,,Red,,,,,2767.09,11.2,,,,
+908,C,24,2,Fibre,,Red,,,,,932.26,22.14,,,,
+909,A,25,0,Fibre,,Black,,,,,5299.13,14.86,,,,
+909,A,25,1,Fibre,,Transparent/blue,,,,,1405.56,17.4,,,,
+909,A,25,2,Fragment,,Light blue,,,,,353.64,154.87,51868.65,943.48,,
+909,A,25,3,Fibre,,Black,,,,,682.83,9.97,,,,
+909,A,25,4,Fibre,,Transparent/blue,,,,,2004.4,12.46,,,,
+909,A,25,5,Fragment,,Black,,,,,335.35,38.94,32427.23,1096.86,,Looks like rubber
+909,A,25,6,Fragment,,Black,,,,,614.97,64.81,52713.66,2269.14,,Looks like rubber
+909,A,25,7,Fibre,,Blue,,,,,1701.44,17.4,,,,
+909,B,26,0,Fragment,,Black,,,,,664.68,366.77,225452.71,3489.48,,Looks like rubber
+909,B,26,1,Fibre,,Transparent/blue,,,,,2015.33,14.35,,,,
+909,B,26,2,Fibre,,Brown/red,,,,,1014.46,14.27,,,,
+909,B,26,3,Fibre,,Transparent/blue,,,,,2811.52,12.57,,,,
+909,B,26,4,Fibre,,Back,,,,,588.78,31.75,,,,
+909,C,27,0,Fibre,,Red/brown,,,,,5434.15,15.59,,,,
+909,C,27,1,Fibre,,Blue,,,,,1722.02,10.42,,,,
+909,C,27,2,Fibre,,Red/brown,,,,,820.51,4.18,,,,
+910,A,28,0,Fibre,,Blue,,,,,1950.35,7.61,,,,
+910,A,28,1,Fibre,,Red,,,,,703.53,9.46,,,,
+910,A,28,2,Fibre,,Transparent/blue,,,,,1593.95,16.03,,,,
+910,A,28,3,Fibre,,Purple,,,,,669.05,7.37,,,,
+910,A,28,6,Fragment,,Red,,,,,398.85,61.38,24097.02,900.23,,
+910,A,28,7,Fibre,,Purple,,,,,638.52,12.17,,,,
+910,A,28,8,Fibre,,Purple,,,,,941.32,7.61,,,,
+910,A,28,9,Fibre,,Purple,,,,,420.16,10.96,,,,
+910,A,28,10,Fibre,,Transparent/blue,,,,,816.28,8.21,,,,
+910,A,28,10,Fibre,,Purple,,,,,1514.65,5.67,,,,
+910,A,28,10,Fibre,,Red,,,,,675.28,17.2,,,,
+910,B,29,0,Fibre,,Brown,,,,,500.43,3.77,,,,
+910,B,29,0,Fibre,,Brown,,,,,1273.35,3.77,,,,
+910,B,29,1,Fibre,,Brown,,,,,633.24,11.96,,,,Looks a bit like a hair
+910,B,29,2,Fibre,,Black,,,,,1111.11,5.06,,,,
+910,B,29,3,Fibre,,Black/brown,,,,,610.25,2.53,,,,
+910,B,29,4,Fibre,,Black/brown,,,,,902.37,8.19,,,,
+910,B,29,5,Fibre,,Black/brown,,,,,355.41,5.66,,,,
+910,B,29,6,Paint,,Blue,,,,,169.66,56.6,9076.55,411.25,,
+910,B,29,7,Fibre,,Transparent/blue,,,,,1192.67,5.66,,,,
+910,B,29,7,Fibre,,Transparent/blue,,,,,2834.35,11.37,,,,
+910,B,29,8,Fibre,,Transparent/red,,,,,2631.09,15.09,,,,
+910,C,30,0,Paint,,,,,,,,,,,,Lots of paint from the boat
+910,C,30,1,Fibre,,Brown/black,,,,,1010.94,3.9,,,,
+910,C,30,2,Fibre,,Brown/black,,,,,1527.51,6.52,,,,
+910,C,30,3,Fibre,,Brown/black,,,,,489.48,8.47,,,,
+910,C,30,4,Fibre,,Brown/black,,,,,292.88,9.14,,,,
+911,A,31,0,Fragment,,Black/transparent,,,,,407.56,66.69,37252.23,997.5,,Looks like rubber
+911,A,31,1,Fibre,,Blue,,,,,1176.64,6.5,,,,
+911,A,31,2,Fibre,,Transparent/blue,,,,,1049.64,13,,,,
+911,A,31,3,Fibre,,Purple,,,,,2287.41,15.61,,,,
+911,B,32,0,Fragment,,Blue,,,,,243.02,31.89,10429.67,608.42,,
+911,B,32,1,Fragment,,Black/transparent,,,,,479.89,200.64,54301.12,1459.94,,
+911,C,33,0,Fragment,,Purple,,,,,198.76,105.11,19508.29,577.88,,Looks like glas/crystal
+911,C,33,2,Fibre,,Brown,,,,,485.77,7.79,,,,
+911,C,33,3,Fragment,,Purple,,,,,303.68,202.3,54063.92,909.81,,Looks like glas/crystal
+910+911,#NAME?,34,,,,,,,,,,,,,,nothing found
+,Blank,0,0,Fibre,,Black,,,,,823.15,10.31,,,,Blank from the clean bench
+912,A,35,0,Fibre,,Black,,,,,1039.23,7.41,,,,
+912,A,35,1,Fibre,,Purple/black,,,,,890.22,6.99,,,,
+912,A,35,2,Fibre,,Transparent/purple,,,,,997.14,8.04,,,,
+912,A,35,3,Fibre,,Purple/black,,,,,369.83,2.47,,,,
+912,A,35,4,Fibre,,Light blue,,,,,2462.95,9.88,,,,
+912,B,36,,,,,,,,,,,,,,Nothing found
+912,C,37,,,,,,,,,,,,,,Nothing found
+912,Blank,49,2,Fibre,,transparent,,,,,787.38,17.96,,,,
+912,Blank,49,3,Fibre,,transparent,,,,,1411.55,22.58,,,,
+913,A,38,0,Fibre,,Transparent/blue,,,,,476.25,10.49,,,,
+913,A,38,1,Fibre,,Transparent/red,,,,,1178.13,26.08,,,,
+913,A,38,2,Paint,,Blue,,,,,,,,,,Paint from boat
+913,A,38,2,Paint,,Blue,,,,,,,,,,Paint from boat
+913,A,38,3,Paint,,Bright red,,,,,300.98,145.6,45539.28,1037.84,,
+913,B,39,0,Fragment,,Purple,,,,,221.37,27.44,8748.33,527.19,,Looks like glas/crystal
+913,B,39,1,Fibre,,Blue,,,,,923.74,12.27,,,,
+913,C,40,0,Fibre,,Transparent/blue,,,,,718.48,11.8,,,,
+913,Blank,41,0,Fibre,,Red/transparent,,,,,728.74,20.47,,,,
+913,Blank,41,1,Fibre,,Purple/transparent,,,,,719.13,18.47,,,,
+914,A,42,0,Fragment,,Purple,,,,,206.49,68.69,13863.66,539.4,,Looks like glas/crystal
+914,A,42,1,Fragment,,Purple,,,,,252.69,102.88,26127.66,669.79,,Looks like glas/crystal
+914,A,42,2,Fibre,,Transparent/blue,,,,,2654.19,18.25,,,,
+914,A,42,3,Fibre,,Transparent/blue,,,,,1155.74,14.6,,,,
+914,A,42,4,Fibre,,Transparent/blue,,,,,1905.98,23.39,,,,
+914,A,42,5,Fragment,,Transparent/purple,,,,,200.99,65.93,6945.58,578.54,,
+914,A,42,6,Fibre,,Transparent/red,,,,,2510.15,9.41,,,,
+914,A,42,7,Fragment,,Transparent/purple,,,,,274.22,28.83,10092.94,691.55,,
+914,A,42,8,Fibre,,Purple,,,,,1412.59,7.42,,,,
+914,B,43,2,Fibre,,Red,,,,,7042.66,18.24,,,,
+914,B,43,3,Fibre,,Transparent/blue,,,,,873.02,22.66,,,,
+914,B,43,4,Fibre,,Black,,,,,1663.17,12.08,,,,
+914,B,43,5,Fragment,,Black/transparent,,,,,156.81,84.02,13783.18,610.13,,
+914,B,43,6,Fibre,,Red/brown,,,,,779.35,13,,,,
+914,B,43,7,Fibre,,Transparent/blue,,,,,590.72,37.82,,,,
+914,C,44,0,Fibre,,Light green/blue,,,,,2535.49,544.59,,,,From boat?
+914,C,44,1,Fibre,,Transparent/blue,,,,,636.51,11.1,,,,
+914,C,44,2,Fibre,,Transparent/blue,,,,,1272.33,11.54,,,,
+914,C,44,3,Fibre,,Transparent/blue,,,,,2012.1,7.73,,,,
+914,C,44,5,Fibre,,Red,,,,,3440.73,11.1,,,,
+914,C,44,5,Fragment,,Transparent/black,,,,,626.56,103.28,181437.06,2659.71,,Looks like rubber
+914,C,44,6,Fibre,,Transparent/blue,,,,,3697.98,16.32,,,,
+914,C,44,7,Fibre,,Red,,,,,2106.02,17.9,,,,
+914,C,44,8,Fragment,,Transparent/black,,,,,360.33,52.26,26159.81,1041.55,,Looks like rubber
+914,C,44,9,Fibre,,Transparent/blue,,,,,443.98,8.46,,,,
+914,C,44,9,Fibre,,Transparent/blue,,,,,354.15,5.47,,,,
+914,C,44,10,Fibre,,Transparent/blue,,,,,1658.63,15.46,,,,
+914,C,44,11,Fibre,,Transparent/blue,,,,,2133.63,19.05,,,,
+914,C,44,12,Fibre,,Transparent/blue,,,,,3924.31,13.6,,,,
+914,C,44,13,Fibre,,Red,,,,,1404.27,18.25,,,,
+914,C,44,14,Fibre,,Blue,,,,,1020.71,22.42,,,,
+914,Blank,45,0,Fibre,,Transparent,,,,,2922.02,40.36,,,,This would have not been detected on a normal filter
+914,Blank,45,1,Fibre,,Transparent/redish,,,,,1877.33,5.85,,,,This would have not been detected on a normal filter
+914,Blank,45,2,Fibre,,Transparent/blue,,,,,1044.96,11.61,,,,This fibre is often found in samples!!
+914,Blank,45,3,Fibre,,Transparent/redish,,,,,769.08,4.85,,,,
+914,Blank,45,4,Fibre,,Transparent/redish,,,,,1136.2,4.22,,,,Same as 1 and 3
+914,Blank,45,5,Fibre,,Transparent/redish,,,,,1067.04,4.68,,,,"Same as 1,3 and 4"
+915,A,46,,Fibre,,Blue,,,,,1799.74,27.79,,,,Looks like propper plastic
+915,A,46,1,Fibre,,Blue,,,,,259.19,16.64,,,,Looks like propper plastic
+915,A,46,2,Fibre,,Transparent,,,,,858.49,19.6,,,,
+915,A,46,3,Fibre,,red,,,,,2384.73,11.77,,,,
+915,A,46,3,Fragment,,Transparent/black,,,,,367.39,83.88,39800.94,958.55,,
+915,B,47,,Fibre,,Black,,,,,356.74,8.87,,,,
+915,B,47,1,Fibre,,Black,,,,,1647.49,6.84,,,,
+915,B,47,2,Fibre,,Blue,,,,,437.12,12.74,,,,
+915,C,48,,Fibre,,Transparent,,,,,1168.34,16.23,,,,
+915,C,48,1,Fibre,,Black,,,,,440.23,8.5,,,,
+915,C,48,2,Fibre,,Blue,,,,,659.79,16.31,,,,
+915,C,48,3,Fibre,,Black,,,,,555.06,13.27,,,,
+915,C,48,4,Fibre,,Black,,,,,5357.72,8.94,,,,
+915,C,48,5,Fibre,,Blue,,,,,1074.05,8.94,,,,sometimes seen on blanks
+915,C,48,6,Fibre,,Black,,,,,644.34,12.16,,,,
+915,C,48,7,Fibre,,Blue,,,,,392.89,19.33,,,,
+915,Blanksea,50,0,Fibre,,Transparent,,,,,3580.68,7.12,,,,NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further.
+915,Blank,51,,,,,,,,,,,,,,nothing
+916,A,52,,Fibre,,Purple/black,,,,,925.11,9.69,,,,
+916,A,52,1,Fibre,,Purple/black,,,,,584.53,13.21,,,,
+916,B,53,,,,,,,,,,,,,,nothing
+916,C,54,1,Fibre,,Black,,,,,774.67,9.92,,,,
+916,C,54,2,Fragment,,White,,,,,323.6,126.3,44284.11,922.45,,
+916,Blanksea,55,0,Fibre,,Transparent,,,,,1666.34,9.53,,,,NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further.
+916,Blanksea,55,2,Fibre,,Transparent,,,,,656.09,16.93,,,,
+916,Blank,56,,,,,,,,,,,,,,nothing
+917,A,57,,,,,,,,,,,,,,lost sample
+917,B,58,,,,,,,,,,,,,,impossible to see thourgh
+917,C,59,,,,,,,,,,,,,,impossible to see thourgh
+917,Blanksea,61,1,Fibre,,Transparent/bluish,,,,,826.69,20.09,,,,NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further.
+917,Blanksea,61,,Fibre,,Blue,,,,,186.87,9.02,,,,NB: St 915-917 blank was filtered on filter paper right after sampling without processing it any further.
+917,Blank,60,,,,,,,,,,,,,,nothing
+918,A,67,,Fibre,,black,,,,,2042.58,7.38,,,,looks like plastic
+918,A,67,1,Paint,,blue,,,,,264.56,284.49,63380.45,948.92,,paint from boat
+918,A,67,2,Fibre,,faint blue/transparent,,,,,1219.91,17.01,,,,often in samples/not plastic?/contamination?
+918,A,67,3,Paint,,blue,,,,,122.87,79.94,10530.51,425.75,,paint from boat
+918,A,67,4,Fibre,,orange,,,,,583.84,21.59,,,,
+918,A,67,5,Fibre,,black,,,,,211.92,8.28,,,,looks like rubber
+918,B,68,,Fibre,,black,,,,,1400.88,10.54,,,,
+918,B,68,1,Fragment,,faint blue/transparent,,,,,246.6,55.45,13601.35,629.64,,often in samples/not plastic?/contamination?
+918,C,69,,Fibre,,faint blue/transparent,,,,,1734.02,6.7,,,,often in samples/not plastic?/contamination?
+918,C,69,1,Fibre,,Black,,,,,659.23,12.1,,,,real plastic
+918,C,69,2,Fibre,,faint blue/transparent,,,,,1861.01,80.4,,,,often in samples/not plastic?/contamination?
+918,C,69,2,Fibre,,faint blue/transparent,,,,,339.94,11.06,,,,often in samples/not plastic?/contamination?
+918,C,69,2,Fibre,,faint blue/transparent,,,,,1292.65,23.85,,,,often in samples/not plastic?/contamination?
+918,C,69,3,Fragment,,faint blue green/transparent,,,,,325.24,181.41,51923.5,904.93,,often in samples/not plastic?/contamination?
+918,C,69,4,Fibre,,faint blue,,,,,1263.32,26.41,,,,often in samples/not plastic?/contamination?
+918,C,69,5,Fibre,,brown/transparent,,,,,2435.76,3.69,,,,
+918,C,69,6,Fibre,,faint blue,,,,,794.72,29.5,,,,"often in saples, rope?"
+918,C,69,7,Fibre,,faint blue,,,,,2845.99,86.86,,,,"often in saples, rope?"
+918,C,69,8,Fibre,,faint blue,,,,,565.06,42.02,,,,"often in saples, rope?"
+918,C,69,8,Fibre,,faint blue,,,,,310.62,46.29,,,,"often in saples, rope?"
+918,Blanksea,62,,Fibre,,Transparent,,,,,731.51,9.8,,,,
+918,Blanksea,62,,Fibre,,Blue,,,,,61.85,8.52,,,,
+918,Blanksea,62,,Fibre,,Blue,,,,,394.4,28.83,,,,
+919,A,70,,Fragment/Paint,,orange,,,,,129.95,118.36,9572.82,368.84,,paint from boat?
+919,A,70,2,Fibre,,blue/purple,,,,,768.99,9.17,,,,new color
+919,A,70,4,Fibre,,brown/transparent,,,,,2997.66,18.63,,,,natural?
+919,A,70,5,Fragment,,faint blue,,,,,130.51,100.32,13747.48,496.52,,often in samples/not plastic?/contamination?
+919,A,70,7,Fragment,,faint blue,,,,,128.96,355.73,37313.16,919.43,,often in samples/not plastic?/contamination?
+919,A,70,8,Fibre,,black,,,,,1204.7,8.2,,,,plastic
+919,A,70,9,Fibre,,balck,,,,,1753.45,8.2,,,,plastic
+919,A,70,10,Fibre,,black,,,,,1274.99,14.64,,,,plastic
+919,B,71,,Fragment,,faint blue,,,,,146.65,56.48,9315.24,421.38,,often in samples/not plastic?/contamination?
+919,B,71,2,Fibre,,faint blue green/transparent,,,,,550.18,11.91,,,,often in samples/not plastic?/contamination?
+919,B,71,3,Fragment,,transparent/blueish,,,,,691.11,129.78,114407.06,1782.34,,piece of rope??
+919,B,71,4,Fragment,,faint blue,,,,,780.03,501.19,260712.88,2272.93,,often in samples/not plastic?/contamination?
+919,B,71,5,Fibre,,black,,,,,927.57,20.38,,,,rubber?
+919,B,71,6,Fragment,,faint blue,,,,,151.86,124.62,17495.78,526.93,,often in samples/not plastic?/contamination?
+919,C,72,,Fibre,,blue/purple,,,,,818.12,13.8,,,,
+919,C,72,,Fibre,,transparent blue,,,,,921.9,13.92,,,,often in samples/not plastic?/contamination?
+919,C,72,1,Fibre,,white,,,,,4127.52,48.87,,,,bone?
+919,Blanksea,63,1,Fibre,,Red,,,,,400.25,8.46,,,,
+919,Blanksea,63,2,Fibre,,transparent,,,,,1813.05,6.46,,,,
+919,Blanksea,63,3,Fibre,,black,,,,,246.53,6.43,,,,
+919,Blanksea,63,4,Fibre,,black,,,,,1887.75,11.96,,,,
+919,Blanksea,63,5,Fibre,,black,,,,,1035.18,12.92,,,,
+919,Blanksea,63,7,Fibre,,transparent,,,,,2495.89,18.44,,,,
+919,Blanksea,63,8,Fibre,,transparent,,,,,1257.52,15.33,,,,
+920,A,73,,,,,,,,,,,,,,nothing
+920,B,74,,,,,,,,,,,,,,nothing
+920,C,75,,Fibre,,black,,,,,2435.77,9.91,,,,
+920,C,75,1,Fibre,,transparent/grey,,,,,1992.67,17.01,,,,natural?
+920,Blanksea,64,,Fibre,,trasparent,,,,,915.69,15.46,,,,
+920,Blanksea,64,1,Fibre,,black,,,,,2071.61,13.08,,,,
+918920,Blank,66,2,Fibre,,black,,,,,143.26,18,,,,
+921,A,76,,Fibre,,black,,,,,729.94,36.96,,,,rubber?
+921,A,76,1,Fibre,,black,,,,,186.78,7.33,,,,natural?
+921,B,77,1,Fibre,,faint blue,,,,,3079.43,56.61,,,,piece of rope??
+921,B,77,2,Fibre,,faint blue,,,,,364.44,75.89,,,,piece of rope??
+921,B,77,3,Fibre,,faint blue,,,,,445.69,39.82,,,,piece of rope??
+921,C,78,,Fibre,,grey/transparent,,,,,1450.71,13.75,,,,
+921,C,78,1,Fibre,,faint blue,,,,,2820.29,23.98,,,,piece of rope??
+921,Blanksea,65,,Fibre,,transparent,,,,,2302.67,19.27,,,,
+922,A,79,1,Fibre,,black,,,,,331,15.17,,,,
+922,A,79,2,Fibre,,faint blue,,,,,393.44,36.66,,,,piece of rope??
+922,A,79,4,Fragment,,blue,,,,,287.3,158.54,46121.39,928.22,,often in samples/not plastic?/contamination?
+922,A,79,6,Fragment,,blue,,,,,418.77,174.98,57254.96,1043.56,,often in samples/not plastic?/contamination?
+922,A,79,8,Fibre,,grey/transparent,,,,,2325.67,18.65,,,,
+922,B,80,,Fragment,,blue,,,,,108.74,44.56,5601.56,313.49,,often in samples/not plastic?/contamination?
+922,B,80,1,Fibre,,grey/transparent,,,,,1992.85,12.84,,,,natural
+922,B,80,2,Fibre,,black,,,,,1102.57,8.24,,,,
+922,B,80,3,Fragment,,dark blue,,,,,323.66,191.44,61344.87,1025.17,,
+922,B,80,4,Fibre,,brown,,,,,1451.64,12.84,,,,
+922,C,81,,Fibre,,Black,,,,,1304.69,16.93,,,,
+922,C,81,1,Fibre,,Black,,,,,593.54,58.38,,,,rubber
+922,C,81,1,Paint,,Blue,,,,,297.37,158.42,45751.43,912.98,,paint from boat?
+922,C,81,2,Fibre,,Grey,,,,,1078.12,18.45,,,,natural?
+922,C,81,3,Paint,,Blue,,,,,226.13,162.72,29248.8,662.75,,paint from boat?
+922,C,81,4,Fibre,,Grey,,,,,4411.12,18.61,,.,,natural?
+922,C,81,5,Fibre,,Blue,,,,,798.01,49.74,,,,piece of rope??
+922,Blanksea,67,,,,,,,,,,,,,,nothing
+921922,Blank,68,,,,,,,,,,,,,,nothing
