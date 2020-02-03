@@ -1,7 +1,99 @@
 # A little something for Karin
 
-```{r}
-data <- read.csv('mp.csv',header = T,dec = ".",na.strings = "")
+```{r pakkar}
+library(dplyr)
+library(plyr)
+library(magrittr)
+library(DT)
+library(data.table)
+data <- read.csv('MPdata2019Karin.csv',header = T,dec = ".",na.strings = "")
+litir=c("#E2FCFF", "#181818", "#FCFCD3")
 ```
 
+```{r pieSize}
+
+#png(filename="PieSizeclass.png",12,7,"cm",pointsize=6,res=900)
+pie(table(data$SizeClass),labels = table(data$SizeClass),col = litir)
+legend("topright", c("Large (>350 μm)","Medium (100 μm - 350 μm)", "Small (<100 μm)"), fill = litir)
+#box()
+#dev.off()
+```
+
+```{r pieColour}
+#png(filename="PieColour.png",12,7,"cm",pointsize=6,res=900)
+pie(table(data$Colour),labels = paste(names(table(data$Colour)),table(data$Colour)),col = names(table(data$Colour)))
+#box()
+#dev.off()
+```
+
+
+
+
+
+```{r barchartSD}
+data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
+DF <- ddply(data,.(Station,Sample,blank),summarise,N=table(Type))
+DF <- ddply(DF,.(Station,blank),summarise,Mean=mean(N),SD=sd(N))
+DF <- DF[,-36]
+Mean <- tidyr::pivot_wider(DF[,-4],names_from = Station, values_from = Mean)
+Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
+SD <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = SD)
+SD <- SD[,!grepl(" |,|[[:alpha:]]", colnames(SD))]
+
+myData <- rbind(Mean,SD)
+myData <- as.data.frame(myData)
+
+
+myData[3,myData[1,]== max(myData[1,],na.rm = T) ]
+plotTop <- max(myData[1,],na.rm = T) +
+  myData[3,  myData[1,] == max(myData[1,],na.rm = T)] * 2
+
+
+litir=c("#E2FCFF", "#181818", "#FCFCD3")
+#png(filename="Barchart.png",12,7,"cm",pointsize=6,res=900)
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),col = litir[1:2],ylab = "MP Particles", xlab = "Station", las=2)
+segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+         as.matrix(Mean+SD) * 1, lwd = 1.5)
+
+arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+       as.matrix(Mean+SD) * 1, lwd = 1.5, angle = 90,
+       code = 3, length = 0.05)
+
+
+legend('topright',c("Samples","Blanks"),fill=litir)
+box()
+#dev.off()
+```
+
+
+```{r m3}
+data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
+DF <- ddply(data,.(Station,Sample,blank),summarise,N=table(Type))
+DF <- DF[DF$blank!="bl",]
+DF$N <- DF$N/(3*1.4)
+DF <- ddply(DF,.(Station),summarise,Mean=mean(N),SD=sd(N))
+Mean <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = Mean)
+Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
+SD <- tidyr::pivot_wider(DF[,-2],names_from = Station, values_from = SD)
+SD <- SD[,!grepl(" |,|[[:alpha:]]", colnames(SD))]
+
+myData <- rbind(Mean,SD)
+myData <- as.data.frame(myData)
+plotTop <- max(myData[1,],na.rm = T) +
+  myData[2,  myData[1,] == max(myData[1,],na.rm = T)] * 2
+
+
+
+#png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "Station", las=2, col = litir[1])
+segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+         as.matrix(Mean+SD) * 1, lwd = 1.5)
+
+arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+       as.matrix(Mean+SD) * 1, lwd = 1.5, angle = 90,
+       code = 3, length = 0.05)
+
+box()
+#dev.off()
+```
 
