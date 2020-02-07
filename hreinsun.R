@@ -171,3 +171,5 @@ segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
 arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
        as.matrix(Mean+SD) * 1, lwd = 1.5, angle = 90,
        code = 3, length = 0.05)
+
+

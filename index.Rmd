@@ -67,10 +67,10 @@ box()
 
 
 ```{r m3}
-data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
-DF <- ddply(data,.(Station,Sample,blank),summarise,N=table(Type))
-DF <- DF[DF$blank!="bl",]
+DF <- ddply(data[data$blank!="bl",],.(Station,Sample, blank),summarise,N=table(Type))
+DF <- ddply(DF,.(Station,Sample),summarise,N=sum(N))
 DF$N <- DF$N/(3*1.4)
+DF <- DF[DF$Station!=917,]
 DF <- ddply(DF,.(Station),summarise,Mean=mean(N),SD=sd(N))
 Mean <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = Mean)
 Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
@@ -84,7 +84,7 @@ plotTop <- max(myData[1,],na.rm = T) +
 
 
 
-#png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
+png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
 barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "Station", las=2, col = litir[1])
 segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
          as.matrix(Mean+SD) * 1, lwd = 1.5)
@@ -94,6 +94,23 @@ arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
        code = 3, length = 0.05)
 
 box()
-#dev.off()
+dev.off()
+
+
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
