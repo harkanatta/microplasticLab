@@ -7,6 +7,7 @@ library(magrittr)
 library(DT)
 library(data.table)
 data <- read.csv('MPdata2019Karin.csv',header = T,dec = ".",na.strings = "")
+data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
 litir=c("#E2FCFF", "#181818", "#FCFCD3")
 ```
 
@@ -50,8 +51,8 @@ plotTop <- max(myData[1,],na.rm = T) +
 
 
 litir=c("#E2FCFF", "#181818", "#FCFCD3")
-#png(filename="Barchart.png",12,7,"cm",pointsize=6,res=900)
-barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),col = litir[1:2],ylab = "MP Particles", xlab = "Station", las=2)
+png(filename="Barchart.png",12,7,"cm",pointsize=6,res=900)
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),col = litir[1:2],ylab = "MP Particles", xlab = "sample ID", las=2)
 segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
          as.matrix(Mean+SD) * 1, lwd = 1.5)
 
@@ -62,7 +63,7 @@ arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
 
 legend('topright',c("Samples","Blanks"),fill=litir)
 box()
-#dev.off()
+dev.off()
 ```
 
 
@@ -85,7 +86,7 @@ plotTop <- max(myData[1,],na.rm = T) +
 
 
 png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
-barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "Station", las=2, col = litir[1])
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "sample ID", las=2, col = litir[1])
 segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
          as.matrix(Mean+SD) * 1, lwd = 1.5)
 
