@@ -35,7 +35,7 @@ pie(table(data$Colour),labels = paste(names(table(data$Colour)),table(data$Colou
 data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
 DF <- ddply(data,.(Station,Sample,blank),summarise,N=table(Type))
 DF <- ddply(DF,.(Station,blank),summarise,Mean=mean(N),SD=sd(N))
-DF <- DF[,-36]
+DF <- DF[-36,]
 Mean <- tidyr::pivot_wider(DF[,-4],names_from = Station, values_from = Mean)
 Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
 SD <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = SD)

@@ -1,0 +1,43 @@
+# Notes
+
+Jóhann, Valtýr and Karin met at the innovation centre to try out the Raman on a few samples from Biopol
+The samples were in PS petri dishes and on nitrocellulose filters
+Challenges and observations:
+  The petri dishes were too high to use a bigger magnification -> only 5x could be used
+    find a better solution, to be able to use bigger objectives (but it should be closed to be able to avoid contamination) -> ask Maria and Enora for advice
+  No problem to keep the samples on nitrocellulose
+    The instrument could pick up the spectrum from the filter which can be subtracted later
+  No problem to focus through the lid og the PS petri dishes (however we did not try to do a scan without the lid to see if that could have made a difference (ask the innovation centre))
+  focused on the lid of the petri dish and got the right match for PS
+  The database expired and needs to be renewed.
+    maybe not necessary for our samples as we could create our own database with the most common plastics.
+  Run a spec from two big fibres on the filters
+    those fibres were big enough to be observed with the naked eye.
+    one fibre did not seem to be of synthetic origin as the spec was very similar to the nitrocellulose spec. (Probably some sort og cellulose)
+    the other fibre gave a good match with PP and s pigment
+
+## Ask Marie and Enora
+  What kind og tray/ish they use to out their filter on
+  how do they do their analysis with the particle finder
+    what kind of settings?
+      only laser 785?
+      for how long? (We tried 10 sec.)
+      what kind of particle size do they detect? Only down to 335 or smaller?
+  Will the particle finder also make a scan of all the organic material?
+    it should be all digested then?!
+
+## Ideas of collaboration between Hafró and Biopol on MP
+  Biopol is well equiped with regards to MP sampling, digestion and preparation of samples
+  Biopol lacks a good analytical instrument (Raman)
+  Lack of aim
+    what do we want to see or prove?
+      sampling locations?
+      particle size (sampling method, Nishkin/Manta/plankton net)?
+      sampling matrix (biota/sediment/water)?
+  Hafró could help with analysis of the sample by Raman
+  Hafró could assist with ideas about the aim of the study
+    do we want to publish a report on sample processing or report on MP in Icelandic waters?
+    Do we need to apply for funding?
+
+Jóhann is trying to involve another person (Lisa) in the project who could possibly take over his work.
+  Hafró has not given MP's much consideration yet but Lisa thinks it's necessary for Hafró to build a clean working environment in the new facilities to be up to standards for publishing on MP.
