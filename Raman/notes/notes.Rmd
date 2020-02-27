@@ -36,6 +36,51 @@ output: html_document
   + those fibres were big enough to be observed with the naked eye.
   + one fibre did not seem to be of synthetic origin as the spec was very similar to the nitrocellulose spec. (Probably some sort of cellulose)
   + the other fibre gave a good match with PP and a pigment
+  
+```{r echo=FALSE}
+
+par(mfrow=c(2,2))
+
+DT <- read.table("p-propylene.txt")
+plot(DT,type="l",xlab=expression(paste('Raman shift (',cm^-1,')',sep='')),ylab="Intensity", main="Polypropylene (PP)")
+
+DT <- read.table("p-propylene-2.txt")
+plot(DT,type="l",xlab=expression(paste('Raman shift (',cm^-1,')',sep='')),ylab="Intensity", main="Polypropylene (PP) - 2")
+
+DT <- read.table("Polystrene.txt")
+plot(DT,type="l",xlab=expression(paste('Raman shift (',cm^-1,')',sep='')),ylab="Intensity", main="Polystyrene (PS)")
+
+DT <- read.table("Nitrocellulose.txt")
+plot(DT,type="l",xlab=expression(paste('Raman shift (',cm^-1,')',sep='')),ylab="Intensity", main="Nitrocellulose")
+
+```
+
+---
+
+```{r message=FALSE, warning=FALSE, echo=FALSE, fig.show = "hold", out.width = "50%", fig.align = "default"}
+
+par(mfrow=c(2,2))
+par(mar=c(0.1,0,0,0))
+#knitr::include_graphics(c("Fiber-2-video-image.jpg","Fiber-video-map.jpg","Nitrocellulose-video-image.jpg","Polystyrene-video-image.jpg" ))
+
+
+#layout(matrix(1:4,nrow = 2))
+library(imager)
+library(magrittr)
+#plot("Fiber-2-video-image.jpg")
+
+img1 <- load.image("Fiber-2-video-image.jpg")
+img2 <- load.image("Fiber-video-map.jpg")
+img3 <- load.image("Nitrocellulose-video-image.jpg")
+img4 <- load.image("Polystyrene-video-image.jpg")
+
+#plot(parrots,axes=F)
+#draw_text("Fiber-2-video-image.jpg", x, y, text, color, opacity = 1, fsize = 20)
+draw_text(img1,100,100,"Polypropylene",col="black", fsize = 100) %>% plot(axes=F)
+draw_text(img2,100,100,"Fiber (not plastic)",col="black", fsize = 200) %>% plot(axes=F)
+draw_text(img3,100,100,"Nitrocellulose filter",col="black", fsize = 200) %>% plot(axes=F)
+draw_text(img4,100,100,"Polystyrene",col="black", fsize = 200) %>% plot(axes=F)
+```
 
 
 ## Ask Marie and Enora
