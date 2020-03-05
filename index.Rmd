@@ -34,8 +34,11 @@ pie(table(data$Colour),labels = paste(names(table(data$Colour)),table(data$Colou
 ```{r barchartSD}
 data$blank <- ifelse(grepl("lank",data$Sample),"bl","mp")
 DF <- ddply(data,.(Station,Sample,blank),summarise,N=table(Type))
+# ddply(DF,.(blank),summarise,Mean=mean(N),SD=sd(N)) Mean and SD of all stations, both mp and blanks
 DF <- ddply(DF,.(Station,blank),summarise,Mean=mean(N),SD=sd(N))
-DF <- DF[-36,]
+DF <- DF[!DF$Station==917,] #These samples were destroyed
+DF <- DF[!is.na(DF$Station==TRUE),] #DF[is.na(DF$Station==FALSE),] doesn't give the same output...?
+
 Mean <- tidyr::pivot_wider(DF[,-4],names_from = Station, values_from = Mean)
 Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
 SD <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = SD)
@@ -85,7 +88,7 @@ plotTop <- max(myData[1,],na.rm = T) +
 
 
 
-png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
+#png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
 barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "sample ID", las=2, col = litir[1])
 segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
          as.matrix(Mean+SD) * 1, lwd = 1.5)
@@ -95,7 +98,7 @@ arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
        code = 3, length = 0.05)
 
 box()
-dev.off()
+#dev.off()
 
 
 ```
