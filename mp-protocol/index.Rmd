@@ -1,0 +1,27 @@
+--- 
+title: <span style="font-size:125%; font-family:Roboto; font-style:normal">Marine Microplastic Sampling Protocol</span> 
+subtitle: <span style="font-size:100%; font-family:Roboto; font-style:normal">Protocol for sampling and processing based on the BASEMAN protocol</span>
+author:  |
+  <span class="noem">Karin Zech and Valtýr Sigurðsson</span>
+date: "`r format(Sys.time(), '%e. %B %Y')`"
+site: bookdown::bookdown_site
+lot: yes
+lof: yes
+output:
+  bookdown::gitbook
+always_allow_html: yes
+documentclass: book
+bibliography: refs.bib
+biblio-style: apalike
+link-citations: yes
+description: "Protocol for sampling and processing based on the BASEMAN protocol. Description and first trials in Húnaflói Iceland"    
+#cover-image: 'img/nineteeneightyR.png'
+#url: 'https\://m-clark.github.io/Introduction-to-Rmarkdown/'
+favicon: 'myndir/zeropoint_logo.jpg'
+#github-repo:  'm-clark/Introduction-to-Rmarkdown/'
+fig_caption: yes
+lang: is
+cls: IEEEtran
+---
+
+
