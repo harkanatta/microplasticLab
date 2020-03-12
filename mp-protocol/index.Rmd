@@ -24,4 +24,456 @@ lang: is
 cls: IEEEtran
 ---
 
+--- 
+title: <span style="font-size:125%; font-family:Roboto; font-style:normal">Marine Microplastic Sampling Protocol</span> 
+subtitle: <span style="font-size:100%; font-family:Roboto; font-style:normal">Protocol for sampling and processing based on the BASEMAN protocol</span>
+author:  |
+  <span class="noem">Karin Zech and Valtýr Sigurðsson</span>
+date: "`r format(Sys.time(), '%e. %B %Y')`"
+site: bookdown::bookdown_site
+lot: yes
+lof: yes
+output:
+  bookdown::gitbook
+always_allow_html: yes
+documentclass: book
+bibliography: refs.bib
+biblio-style: apalike
+link-citations: yes
+description: "Protocol for sampling and processing based on the BASEMAN protocol. Description and first trials in Húnaflói Iceland"    
+#cover-image: 'img/nineteeneightyR.png'
+#url: 'https\://m-clark.github.io/Introduction-to-Rmarkdown/'
+favicon: 'myndir/zeropoint_logo.jpg'
+#github-repo:  'm-clark/Introduction-to-Rmarkdown/'
+fig_caption: yes
+lang: is
+cls: IEEEtran
+---
+
+# Protocol
+
+<p style="color:red">NB! This protocol was efficient for the identification of particles under the stereo microscope but it needs to be adjusted if the samples will be used for the Raman. Digestion needs to be more efficient if the samples are used for the RAMAN. Since there can be a lot of sand in some samples a density separation might be applicable. If there is a lot of organic matter left on the filter digestion time/method might need to be adjusted.</p>
+
+# Equipment
+
+
+* [Zooplankton net](https://www.nhbs.com/plankton-net-250mm-frame-32mm-filter?bkfno=184244) (100 µm mesh size)
+* 1 litre plastic container **(from Samhentir (L-11-1000 Dós 1000 ml gl. 133 mm))**
+* Biological Safety Cabinet (MSC Advantage 12 BSC)
+* Sterile petri dishes (plastic (Polystyrene))
+* Forceps
+* Glass filtration unit including vacuum pump
+* Filters; whatman nitrocellulose filters 0.45 um 47 mm
+* Filters; durapore membrane filters 0.22 um, GV, 47 mm
+* Temperature controlled oven
+* Freeze dryer
+* Pre-weighed 250 ml Erlenmeyer flasks
+* Steel mesh, 125 µm mesh size
+* Stereo microscope (Olympus SZX16)
+* Camera (Leica DMC 2900)
+
+
+## Reagents
+
+* Hydrogen peroxide 10 % solution (NB: Use gloves and goggles! 282 ml of 35.5 % H2O2 up to 1 litre of MilliQ water. Filter with 0.22 um filter under the clean bench)
+* Potassium hydroxide 10 % solution (NB: Use gloves and goggles! 100 g of potassium pellets up to 1 litre of MilliQ water. Filter with 0.22 um filter under the clean bench)
+* MilliQ water
+
+# Preparations
+
+Prior to sampling the sampling containers (1 l) and the Erlenmeyer flasks (250 ml) are washed with hot water, then two times with milliQ water and then once with milliQ water under the clean bench. 
+In correspondence with Dr. Joao Frias glass ware are treated like this:
+
+>“we use honey and jam jars, which we wash, rinse and clean with milliQ or ultrapure water, before decontaminating them in an acid bath (0.5-1%). After this process, the jars are washed and rinsed again with ultrapure water.” 
+
+In the [BASEMAN protocol](https://www.oceanbestpractices.net/bitstream/handle/11329/1077/mafiadoc.com_standardised-protocol-for-monitoring-microplastics_5c8d88c5097c47605c8b45d0.pdf?sequence=1) Nitric acid (1 %) is used to decontaminate the glass ware before the glass is rinsed with water before use. Ideally it should dry up-side-down for airborne microplastics not to accumulate in it.
+The containers and flasks need to be closed with a lid or aluminium foil whenever they are not handled under the clean bench. 
+The Erlenmeyer flasks have to be dried in the oven after rinsing to be able to take the tare. Record the tare! Remember that the flasks need to be covered with aluminium foil after they have been rinsed. 
+<p style="color:red">All the solutions which will be added to the samples have to be filtered under the clean bench with a 0.22 um filter.</p>
+
+
+# Sampling on board
+
+Recorded parameters in the past were: 
+
+* Temperature, 
+* salinity, 
+* sampling coordinates and 
+* general weather conditions.
+
+According to the baseman protocol other environmental variables that might help elucidate the influences on the recorded presence and concentration of microplastics in seawater:
+
+* Wind speed and direction
+* Sea state; wave height
+* Amount of macrodebris 
+* Oxygen
+* Chlorophyll-a
+* Turbidity, etc.
+
+Samples are taken from the water column from 20 m to the surface with the zooplankton net. The plankton net has a diameter of 30 cm. The volume sampled is calculated like that: volume = π × r^2^ × h which means π × 0.15m × 0.15m × 20m which results in 1.4 m^3^ or 1413 litres of water sampled. 
+The net should be rinsed with tap water and stored in a corn bag prior to sampling to avoid the collection of dust inside the net. 
+*Mussel larvae sampling (or any other sampling) should be performed before the plastic samples are taken to give the net some extra rinsing.* 
+The content of the net is flushed into a 1 litre plastic container.
+During sampling it is recommended wear clothing made of cotton and it is important not to use plastic ropes which could shed fibres during sampling. Monofilament cord or a metal wire is preferred.
+It is also important to make sure the net is not pulled under the boat to avoid contamination from the paint of the boat.
+
+# Blanks
+
+Three different types of blanks are taken with each sampling/processing.
+
+1. Blank taken on board of the vessel to document contamination during sampling.
+2. Blank from processing taken under the clean bench to document contamination from chemicals/water/flasks during the process.
+3. Blank from the clean bench taken by placing three wet filter papers (in a petri dish) under the clean bench during the entire processing of the samples. 
+
+*Blank 1*: A rinsed 1 litre container is filled in the lab with around 500 ml of MilliQ water. This container is left open during the entire microplastic sampling to collect any airborne contamination. The container is closed after sampling (at the same time as the sampling containers on board are closed) and returned to the lab. In the lab the sample is filtered straight onto a filter (without digestion) and checked for contaminations.
+
+*Blank 2* is prepared by using a pre-weighed Erlenmeyer flask which is filled with approximately the same volume of MilliQ water as used for the samples. The blank is frozen, freeze-dried, and processed like the samples (chemicals added, incubated, filtered and transferred onto filter).
+
+*Blank 3* is prepared by using three filters (checked under the stereo microscope for contamination before using it) which are placed in an open petri dish, wettened with MilliQ water and placed under the clean bench during processing. 
+
+# Processing in the laboratory
+
+<p style="color:red">NB: Authors from the baseman protocol recommend to not exceed an incubation temperature of more than 40 °C as well as not exceeding a concentration of 10 % for KOH and H2O2, however other protocols go above this temperature/time.</p>
+
+The samples/blank are stored in the fridge (for short time storage) or in the freezer (for long time storage). 
+
+If the samples are frozen, defrost them at room temperature. If the quantity of organic content is too high to allow direct examination, samples are pre-filtered under the BSC using a 125 µm steal sieve and carefully transferred to a pre-weighed 250 ml Erlenmeyer flasks.
+
+The samples are then covered with aluminium foil, frozen at -70 °C and placed into the freeze dryer until dry.
+
+The weight of the Erlenmeyer flasks should be taken once they reached room temperature. Subtract the recorded tare and document the mass of organic matter. 
+
+## Sample digestion
+
+A sample pre-treatment consisting of digestion of the soft tissues in potassium hydroxide should be performed. 
+
+### 10 % KOH digestion
+
+At least 20 ml of 10 % potassium hydroxide solution is added to each flask (including blank). Make sure the entire sample is covered with solution (if there is a lot of organic material more solution might be needed to cover the material). The mixture is placed in a temperature-controlled oven at 40 °C. It is very important to not exceed this temperature. The treatment of the samples continues at 40 °C for a maximum of 72 hours.
+
+### 10 % H2O2 digestion
+
+Following the KOH digestion, if not all the matter was digested, an additional step, using hydrogen peroxide could be necessary. The same volume of hydrogen peroxide (10 % solution) as used in the previous step (potassium hydroxide) is added to the flask (if 20 ml of KOH solution was added in the first step, 20 ml of hydrogen peroxide should be added). Hydrogen peroxide solution is added to oxidize and digest the remaining material. The mixture is placed in a temperature-controlled oven at 40 °C for a maximum of 72 hours.
+
+### Density separation
+
+An additional density separation step can be added if there is a lot of sand/organic matter left on the filter. This can be carried out according to the Baseman protocol or any other applicable protocol.
+
+### Filtration of samples
+
+To minimize the exposure of chemicals on the filter paper the mixture is first filtered through a 125 µm steel mesh (same as in the previous step). The remaining particles are then transferred onto a nitrocellulose filter. 
+
+### Storage of filters
+
+After the samples are on the filters are put into a sterile and labelled petri dish dried and kept at room temperature until dry. Once dry they can be closed with parafilm and stored in the freezer until microscopic observations. **If the samples are stored wet at room temperature mould can form on the filters**.
+
+
+# Identification 
+
+Relevant criteria to take into consideration during identification include physical (size, type, colour) and chemical properties.
+Until now only stereo microscopic observations can be carried out at BioPol so only physical properties are included in the identification.
+Each microplastic is photographed under the stereo microscope using the Leica camera and measured with image J.
+
+1. Size: data should be recorded in three size classes, 1-100 µm, 100-350 µm, 350 µm-5 mm. Note for measurements: Fibre and filament: length and diameter, Fragment, film, paint sheet and rubber: perimeter, area, width and length .
+2. Pellet and microbead: perimeter and diameter
+3. Type: pellet, fragment, fibre, film, rope and filaments, microbeads (perfect spheres), sponge/foam, rubber
+4. Color: Black, blue, white, transparent, red, green, multicolour, others.
+
+# Reporting results
+
+Reporting units are extremely important to allow comparison among studies. The proposed reporting units for microplastics retrieved from water samples are:
+
+1. No.MPs per area (#particles km-2 or # particles m-2)
+2. No.MPs per volume (#particles m-3)
+3. Mass of MP per area (gMP km-2 or gMP m-2)
+4. Mass of MP per volume (gMP l-3 or gMP m-3)
+
+The only unit making sense in our study so far is 2: No.MPs per volume (particles/m^-3^)
+
+
+# Microplastic sampling and processing 2019 - Results
+
+## Size
+
+During the entire sampling period of 2019 a total of 286 particles were detected and measured, both in the samples and the blanks. 232 particles were in the largest size class; bigger than 350 µm. 50 particles were between 100-350 µm and only 3 particles were smaller than 100 µm (thereof one fibre). All paint fragments were under 350 µm in the longest dimension and 21 of 40 fragments were under 350 µm. Size distribution of all detected particles are shown in the graph below. 
+
+ 
+```{r pakkar, include=FALSE}
+library(dplyr)
+library(plyr)
+library(magrittr)
+library(DT)
+library(data.table)
+library(tidyverse)
+data <- read.csv('skjol/MPdata2019Karin.csv',header = T,dec = ".",na.strings = "")
+data$Blank <- ifelse(grepl("lank",data$Sample),"yes","no")
+data$SizeClass <- ifelse(data$Length<=100 & data$Width<=100,"small",ifelse(data$Length>100 & data$Width>100 & data$Length<=350 & data$Width<=350,"medium","large"))
+litir=c("#E2FCFF", "#181818", "#FCFCD3")
+```
+
+```{r fragments, echo=FALSE, message=FALSE, warning=FALSE}
+
+fragments <- data %>% 
+  drop_na(Type) %>% 
+  ddply(.(Type,Blank),summarise,N=table(Blank))
+
+knitr::kable(fragments,caption = "Mp's found in samples and blanks")
+
+```
+
+
+Due to the fact that the samples were analysed with the stereo microscope mostly large particles were observed. It is very likely that this picture would look different if a more sensitive analytical approach (like FTIR or Raman) would have been used. Some scientists which have been using more advanced analytical methods have shown that the abundance of microplastics increase with decreasing size. 
+
+
+```{r pieSize, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Size distribution of the microplastic particles. Blanks are excluded."}
+
+#png(filename="PieSizeclass.png",12,7,"cm",pointsize=6,res=900)
+#pie(table(data$SizeClass),labels = table(data$SizeClass),col = litir)
+#legend("topright", c("Large (>350 μm)","Medium (100 μm - 350 μm)", "Small (<100 μm)"), fill = litir)
+
+#box()
+#dev.off()
+
+#tafla <- plyr::ddply(data,.(Type,SizeClass),summarize,N=table(SizeClass))
+#barplot(tafla)
+
+Mpmorph <- data %>% 
+  drop_na(Type) %>% 
+  filter(Blank=="no") %>% 
+  ddply(.(Type,SizeClass),summarize,N=table(SizeClass)) %>% 
+  pivot_wider(names_from = SizeClass,values_from = N) %>% 
+  replace_na(list(large = 0, medium = 0, small = 0))
+
+Blankmorph <- data %>% 
+  drop_na(Type) %>% 
+  filter(Blank!="no") %>% 
+  ddply(.(Type,SizeClass),summarize,N=table(SizeClass)) %>% 
+  pivot_wider(names_from = SizeClass,values_from = N) %>% 
+  replace_na(list(large = 0, medium = 0, small = 0))
+
+
+gat <- as.matrix(Mpmorph[,2:4])
+rownames(gat) <- levels(Mpmorph$Type)
+colnames(gat) <- c("Large (>350 μm)","Medium (100 μm - 350 μm)", "Small (<100 μm)")
+
+roundUpNice <- function(x, nice=c(1,2,4,5,6,8,10)) {
+if(length(x) != 1) stop("'x' must be of length 1")
+10^floor(log10(x)) * nice[[which(x <= 10^floor(log10(x)) * nice)[[1]]]]
+}
+
+bp <- barplot(gat,ylab='',xlab='',axes=F,beside=TRUE,ylim=c(0,max(gat)*1.1))
+abline(h=seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5), col = 'lightgray', lty = 3)
+barplot(gat, main="Number of MP's", ylab="Magn (tonn)", beside=TRUE, axes = F, col=litir ,ylim = c(0,max(gat)*1.1),add=T)
+box()
+axis(2,seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5),labels = seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5),las=2)
+legend('topright', levels(as.factor(Mpmorph$Type)), fill=litir)
+#dev.off()
+
+```
+
+## Colour
+
+The most dominant colour was blue (64 particles) followed by transparent (57 particles) and black (56 particles). Color distribution, including less abundant colors, is shown in the graph below.
+
+```{r pieColour, echo=FALSE, fig.cap="Color distribution of the microplastic particles."}
+#png(filename="PieColour.png",12,7,"cm",pointsize=6,res=900)
+pie(table(data$Colour),labels = paste(names(table(data$Colour)),table(data$Colour)),col = names(table(data$Colour)))
+#box()
+#dev.off()
+```
+
+
+## Particles per sampling trip
+
+Sampling was carried out between April and October 2019 (total of 63 samples). Three samples were taken during each sampling trip (21 sampling trips). The average and standard deviation was calculated from each sampling trip and is shown in the graph below. 
+
+Numbers of particles are very low which could be attributed to the analytical method (stereoscopic observation) which only allows us to detect bigger particles (see graph above). 
+
+Mean particle abundance per sample ID was 1.2 (± 2.3).
+
+As shown in the graph the standard deviation is very high which means there is big variability between the three samples. To improve this more samples could be taken. Another idea could be to sample a bigger volume of water to increase the number of particles. Instead of using a stereo microscope to detect the particles a more sensitive method could be used to be able to detect smaller particles and thus improve variability. 
+
+Blanks during sampling were taken from July onwards and are represented as black bars in the barchart below. Number of particles in the blanks can be close to the number of particles found in the samples which makes it difficult to conclude on the real number of particle present in the samples. 
+
+
+
+```{r barchartSD, echo=FALSE, fig.cap="Number of microplastic particles per sampling trip."}
+
+DF <- ddply(data,.(Station,Sample,Blank),summarise,N=table(Type))
+# ddply(DF,.(blank),summarise,Mean=mean(N),SD=sd(N)) Mean and SD of all stations, both mp and blanks
+DF <- ddply(DF,.(Station,Blank),summarise,Mean=mean(N),SD=sd(N))
+DF <- DF[!DF$Station==917,] #These samples were destroyed
+DF <- DF[!is.na(DF$Station==TRUE),] #DF[is.na(DF$Station==FALSE),] doesn't give the same output...?
+
+Mean <- tidyr::pivot_wider(DF[,-4],names_from = Station, values_from = Mean)
+Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
+SD <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = SD)
+SD <- SD[,!grepl(" |,|[[:alpha:]]", colnames(SD))]
+
+myData <- rbind(Mean,SD)
+myData <- as.data.frame(myData)
+
+
+myData[3,myData[1,]== max(myData[1,],na.rm = T) ]
+plotTop <- max(myData[1,],na.rm = T) +
+  myData[3,  myData[1,] == max(myData[1,],na.rm = T)] * 2
+
+
+litir=c("#E2FCFF", "#181818", "#FCFCD3")
+#png(filename="Barchart.png",12,7,"cm",pointsize=6,res=900)
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),col = litir[1:2],ylab = "MP Particles", xlab = "sample ID", las=2)
+segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+         as.matrix(Mean+SD) * 1, lwd = 1.5)
+
+arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+       as.matrix(Mean+SD) * 1, lwd = 1.5, angle = 90,
+       code = 3, length = 0.05)
+
+
+legend('topright',c("Samples","Blanks"),fill=litir)
+box()
+#dev.off()
+```
+
+## Particles per cubic meter per sampling week
+
+From the number of particles found per sampling trip the number of particles per cubic meter was calculated and is shown in the graph 
+As described above, the number of particles per cubic meters is very low with a mean of 0.9 (± 0.7) particles per cubic meter. 
+
+```{r m3, echo=FALSE, fig.cap="Microplastic particles per cubic meter per sampling trip"}
+DF <- ddply(data[data$Blank!="yes",],.(Station,Sample, Blank),summarise,N=table(Type))
+DF <- ddply(DF,.(Station,Sample),summarise,N=sum(N))
+DF$N <- DF$N/(3*1.4)
+DF <- DF[DF$Station!=917,]
+DF <- ddply(DF,.(Station),summarise,Mean=mean(N),SD=sd(N))
+Mean <- tidyr::pivot_wider(DF[,-3],names_from = Station, values_from = Mean)
+Mean <- Mean[,!grepl(" |,|[[:alpha:]]", colnames(Mean))]
+SD <- tidyr::pivot_wider(DF[,-2],names_from = Station, values_from = SD)
+SD <- SD[,!grepl(" |,|[[:alpha:]]", colnames(SD))]
+
+myData <- rbind(Mean,SD)
+myData <- as.data.frame(myData)
+plotTop <- max(myData[1,],na.rm = T) +
+  myData[2,  myData[1,] == max(myData[1,],na.rm = T)] * 2
+
+
+
+#png(filename="MPperM3.png",12,7,"cm",pointsize=6,res=900)
+barCenters <- barplot(as.matrix(Mean),beside = T,ylim = c(0, plotTop),ylab = expression(paste("MP/m"^"3")), xlab = "sample ID", las=2, col = litir[1])
+segments(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+         as.matrix(Mean+SD) * 1, lwd = 1.5)
+
+arrows(barCenters, as.matrix(Mean-SD) * 1, barCenters,
+       as.matrix(Mean+SD) * 1, lwd = 1.5, angle = 90,
+       code = 3, length = 0.05)
+
+box()
+#dev.off()
+
+
+```
+
+
+## Summary
+In theory particle number should increase with decreasing particle size but that is not the case when analysing the samples with a stereo microscope.
+
+Since the mean particle number was around 1.3 (± 2.3) per sampling trip and the mean number of particles found in the blank was around 0.5 (± 1.3) per sampling trip our findings are not very meaningful. 
+
+<p style="color:red">The number of detected MP particles must be well above blank samples!!!</p>
+
+
+## Improvements/Ideas
+
+1. Start finding a purpose of the monitoring programme, and set its aims!
+ + If the purpose of the monitoring is to detect long-term trends, of microplastics in the marine environment, sediments might be the most suitable matrix since it is the sink where most particles will be sequestered (collect where MPs are likely to accumulate)
+ + If the purpose of the monitoring instead is to detect time trends of microplastic emissions from a point source, such as a wastewater treatment plant or an industry, sampling of the water surface or water column would ideally provide information on the single process or pathway. 
+
+2. We need to change our sampling in order to increase the number of particles in each sample (e.g. by increasing sampling volume and decreasing mesh size or measuring smaller particles with the same mesh size, …). 
+ + „Regardless of which method is applied, most important is to ensure that the samples contain a high enough number of particles and to take enough replicates to allow for statistical analysis of data. This is vital in order to compensate for uncertainty related to counting statistics and patchiness of microplastic particles within the confined sampled space (Karsson et al. 2018).“ 
+
+3. Try to avoid sand in our samples to eliminate the density separation step (avoid sampling to close to the sea bed)
+
+4. Our filters still seem to contain a lot of chitinous zooplankton carapaces after our digestion protocol with KOH and H2O2 
+ + Try to digest with chitinase enzymes 
+ + Another idea would be to use the Raman to check the chemical composition of the organic matter which is left on the filters to improve the digestion method (then we would be able to specifically target certain polymers like chitin, cellulose,.. and digest them accordingly).
+
+5. Organic material needs to be digested further on our samples if automated spectroscopic analysis with Raman will be applied
+
+6. In addition to internal blanks, recoveries of reference particles in different size fractions and external QA procedures should be included
+
+## Other notes: 
+
+* The abundance of microplastics, as for most other particles, increases exponentially with smaller sizes, and therefore all recent environmental risk assessment reports emphasize the role of smaller MP sizes
+* Studies show that data from surface water only (like with manta net) does not provide a complete picture of the amount of microplastics in water.
+* It should be emphasized that both the visual analyses with stereomicroscopy (to reveal the particle shape, colour and texture) and the interpretation of spectra from FTIR and Raman spectroscopy (to identify the polymer composition of the particles) require a well-trained staff if the results are to be reliable. 
+* The more digestion steps are applied the higher the risk of contamination and the higher the risk of loss of particles in the samples
+* When using ZnCl2: precipitation can form with high alkaline solutions (ZnOH2)
+* ZnCl2: a larger number of non-plastic particles will float up to the surface, making the analysis of samples more difficult
+* When working with ZnCl2: it is classified as toxic to humans and hazardous to the aquatic environment, and all the liquids and sediment need to be treated as chemical waste!!!
+* The depth where water samples are being collected, or the sampling season can make a crucial difference in the amounts and types of organic material present in the samples -> affecting the selection of most suitable digestion methods.
+* The requirements for sample quality and purity are higher when aiming to analyze smaller particles 
+
+# Sampling and processing dates of 2019
+```{r SamplingProcessingDates, echo=FALSE}
+tafla <- read.csv("skjol/SamplingProcessingDates.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
+names(tafla) <- c("Sample ID","Sampling Date","Processing Date", "Put on Filter")
+tafla$`Sampling Date` <- as.Date(as.character(tafla$`Sampling Date`),"%d-%m-%Y")
+tafla$`Processing Date` <- as.Date(as.character(tafla$`Processing Date`),"%d-%m-%Y")
+tafla$`Put on Filter` <- as.Date(as.character(tafla$`Put on Filter`),"%d-%m-%Y")
+#knitr::kable(tafla)
+DT::datatable(tafla,caption = "Sampling and processing dates",rownames = F)
+```
+
+
+## Efficiency of digestion
+
+Samples 901-906 could not be weighed as those samples were put onto a GF/C filter which seems to have lost weight after filtration. Hence samples 901-906 could not give us information about the digestion efficiency.
+Samples 907-909 were put onto a membrane filter (0.22 um) and samples 910-922 were put onto the normal Nitrocellulose filters. Weight was taken from all filters after they had been dried at room temperature for several weeks. 
+The median digestion efficiency was 92 % which means that 92 % of the organic matter present in the beginning was digested. The average digestion efficiency was at 88 %. 
+The amount left behind on the filter after digestion correlates with the amount of organic matter originally present in the samples.
+Digestion efficiency was below the average in samples 915, 916, 917, 918 and 920. Possibly because of high content of diatoms. 
+
+
+```{r DigestionEfficiency, echo=FALSE}
+tafla <- read.csv("skjol/DigestionEfficiency.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
+tafla <- tafla[,-10]
+names(tafla)[c(2,4,6,7,8,9)] <- c("Repl.","Debris after digest. [g] incl. tare", "Debris after digest. [g]","Debris before digest. [g]","% left after digest.","Digest. EFFCY [%]")
+#knitr::kable(tafla)
+tafla %>% 
+  DT::datatable(caption = "Efficiency of digestion",rownames = F) %>% 
+  DT::formatStyle(columns = colnames(tafla), fontSize = '80%')
+```
+
+
+
+```{r MyndDigestionEff, echo=FALSE,out.width='50%',fig.show='hold'}
+tafla <- read.csv("skjol/DigestionEfficiency.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
+tafla <- tafla[,-10]
+myvars <- c(tafla$`Sample ID`) %in% c(901,902,903,904,905,906)
+tafla <- tafla[!myvars,]
+plot(tafla$`Debris after digestion [g]`,tafla$`Debris before digestion [g]`,type = 'n',ylab = "Before digestion [g]",xlab = "After digestion [g]")
+
+library(dplyr)
+
+tafla <- tafla %>%
+    mutate(Colours = group_indices(., `Sample ID`))
+
+N=max(tafla$Colours)
+library(RColorBrewer)
+myColors <-colorRampPalette(brewer.pal(9, "Set1"))(N)
+#litir <- getPalette(N)
+
+text(tafla$`Debris after digestion [g]`,tafla$`Debris before digestion [g]`, labels=tafla$`Sample ID`, cex= 0.7,col = myColors[tafla$Colours])
+fit <- lm(tafla$`Debris before digestion [g]`~tafla$`Debris after digestion [g]`)
+abline(a=coef(fit)[1], b=coef(fit)[2])
+
+plot(tafla$`Debris before digestion [g]`,tafla$`Digestion efficiency [%]`,type = 'n',ylab = "Before digestion [g]",xlab = "Digestion efficiency [%]")
+text(tafla$`Debris before digestion [g]`,tafla$`Digestion efficiency [%]`, labels=tafla$`Sample ID`, cex= 0.7,col = myColors[tafla$Colours])
+fit <- lm(tafla$`Digestion efficiency [%]`~tafla$`Debris before digestion [g]`)
+abline(a=coef(fit)[1], b=coef(fit)[2])
+```
+
+
+
+
 
