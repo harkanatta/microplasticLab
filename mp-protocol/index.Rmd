@@ -225,7 +225,7 @@ knitr::kable(fragments,caption = "Mp's found in samples and blanks")
 Due to the fact that the samples were analysed with the stereo microscope mostly large particles were observed. It is very likely that this picture would look different if a more sensitive analytical approach (like FTIR or Raman) would have been used. Some scientists which have been using more advanced analytical methods have shown that the abundance of microplastics increase with decreasing size. 
 
 
-```{r pieSize, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Size distribution of the microplastic particles. Blanks are excluded."}
+```{r pieSize, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Size distribution of the microplastic particles. Blanks are excluded.",dev.args = list(bg = 'transparent')}
 
 #png(filename="PieSizeclass.png",12,7,"cm",pointsize=6,res=900)
 #pie(table(data$SizeClass),labels = table(data$SizeClass),col = litir)
@@ -275,9 +275,29 @@ legend('topright', levels(as.factor(Mpmorph$Type)), fill=litir)
 
 The most dominant colour was blue (64 particles) followed by transparent (57 particles) and black (56 particles). Color distribution, including less abundant colors, is shown in the graph below.
 
-```{r pieColour, echo=FALSE, fig.cap="Color distribution of the microplastic particles."}
+```{r pieColour, echo=FALSE, fig.cap="Color distribution of the microplastic particles.",dev.args = list(bg = 'transparent')}
 #png(filename="PieColour.png",12,7,"cm",pointsize=6,res=900)
-pie(table(data$Colour),labels = paste(names(table(data$Colour)),table(data$Colour)),col = names(table(data$Colour)))
+
+Mpcolour <- data %>% 
+  drop_na(Colour) %>% 
+  filter(Blank=="no") %>% 
+  ddply(.(Type,Colour),summarize,N=table(Colour)) %>% 
+  filter(N!=0) %>%
+  pivot_wider(names_from = Type,values_from = N) 
+  
+Mpcolour[is.na(Mpcolour)] <- 0 
+
+gat <- as.matrix(Mpcolour[,2:4])
+rownames(gat) <- levels(Mpcolour$Colour)
+
+bp <- barplot(gat,ylab='',xlab='',axes=F,beside=TRUE,ylim=c(0,max(gat)*1.1))
+abline(h=seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5), col = 'lightgray', lty = 3)
+barplot(gat, main="Number of MP's", ylab="Magn (tonn)", beside=TRUE, axes = F, col=rownames(gat) ,ylim = c(0,max(gat)*1.1),add=T)
+box()
+axis(2,seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5),labels = seq(0,roundUpNice(1.1*max(gat)),roundUpNice(1.1*max(gat))/5),las=2)
+legend('topright', rownames(gat), fill=rownames(gat))
+
+
 #box()
 #dev.off()
 ```
