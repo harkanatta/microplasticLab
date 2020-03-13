@@ -1,8 +1,17 @@
 bookdown::gitbook:
   css: style.css
   config:
+  
     toc:
       before: |
-        <li><a href="./">A Minimal Book Example</a></li>
+          <li class='before'><a href="./">Marine Microplastic Sampling Protocol</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+         <li class='after'">
+            <a href="https://biopol.is/">
+               <img src="myndir/zeropoint_logo.jpg" style="width:25%; padding:0px 0; display:block; margin: 0 auto;" alt="BioPol logo">
+            </a>
+            <a href="https://www.nnv.is/">
+               <img src="https://raw.githubusercontent.com/harkanatta/ssnv_trident/master/myndir/nnvlogoJPEG.jpeg" style="width:25%; padding:0px 0; display:block; margin: 0 auto;" alt="nnv logo">
+            </a>
+         </li>
+

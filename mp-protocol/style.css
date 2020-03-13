@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Condensed|Lato|Lora|Fira+Sans");
+
+/* title page */
+.book .book-body .page-wrapper .page-inner section.normal h1.title {
+  font-size: 250%;
+  font-family: 'Fira Sans', Karla, 'Roboto Condensed', Lora, Lato, Roboto, sans;
+  font-style: normal;
+  font-weight: 100;
+}
+/* headers */
+
+h1, h2, h3, h4, h5 {
+  color:#cb5600;
+  font-family: 'Roboto Condensed';
+}
+
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -11,4 +27,67 @@ pre {
 }
 pre code {
   white-space: inherit;
+}
+
+/* so that before and after aren't treated the same as the toc, because why would they? */
+.book .book-summary ul.summary li.before a {
+  color: #cb5600;
+  text-decoration: none;
+  font-size: 125%;
+  font-variant: small-caps;
+  font-family: 'Roboto Condensed', 'Helvetica Neue', 'Open Sans', Roboto, sans-serif;
+  font-weight: 500;
+}
+
+
+.book .book-summary ul.summary li.before a:hover,
+.book .book-summary ul.summary li.before li.active>a {
+  color: #fffff8;  /*#6197D5*/
+  background-color: #cb5600;
+  text-decoration: none;
+}
+
+.book .book-summary ul.summary li.after a, .book .book-summary ul.summary li.after a:hover {
+  background-color: transparent;
+}
+
+/* divider line for the title before and other stuff  after toc */
+.book .book-summary ul.summary li.divider{
+    height:1px;
+    margin:7px 0;
+    overflow:hidden;
+    background:rgba(0,0,0,.07)
+}
+
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active>a {
+  color: #fffff8;  /*#6197D5*/
+  background-color: #cb5600;
+}
+/* nav/menu area */
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+    display: block;
+    padding: 10px 25px;
+    border-bottom: none;
+    color: #364149; /**/
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    font-family: Lato,'Roboto Condensed', sans;
+    /* font-variant: small-caps; */
+}
+/* link effects */
+.book .book-body .page-wrapper .page-inner section.normal a {
+    color: #3D68FF;
+    background-image: linear-gradient(180deg,transparent 90%, #FFD43D 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    -webkit-transition: background-size .4s ease;
+    -moz-transition: background-size .4s ease;
+    -ms-transition: background-size .4s ease;
+    -o-transition: background-size .4s ease;
+    transition: background-size .4s ease;
+    border-bottom: 0px solid;
 }

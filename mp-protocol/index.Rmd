@@ -198,7 +198,7 @@ The only unit making sense in our study so far is 2: No.MPs per volume (particle
 During the entire sampling period of 2019 a total of 286 particles were detected and measured, both in the samples and the blanks. 232 particles were in the largest size class; bigger than 350 µm. 50 particles were between 100-350 µm and only 3 particles were smaller than 100 µm (thereof one fibre). All paint fragments were under 350 µm in the longest dimension and 21 of 40 fragments were under 350 µm. Size distribution of all detected particles are shown in the graph below. 
 
  
-```{r pakkar, include=FALSE}
+```{r pakkar, message=FALSE, warning=FALSE,echo=FALSE,include=FALSE}
 library(dplyr)
 library(plyr)
 library(magrittr)
@@ -225,7 +225,7 @@ knitr::kable(fragments,caption = "Mp's found in samples and blanks")
 Due to the fact that the samples were analysed with the stereo microscope mostly large particles were observed. It is very likely that this picture would look different if a more sensitive analytical approach (like FTIR or Raman) would have been used. Some scientists which have been using more advanced analytical methods have shown that the abundance of microplastics increase with decreasing size. 
 
 
-```{r pieSize, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Size distribution of the microplastic particles. Blanks are excluded.",dev.args = list(bg = 'transparent')}
+```{r pieSize, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Size distribution of the microplastic particles. Blanks are excluded.",dev.args = list(bg = 'transparent'),dev = 'svg'}
 
 #png(filename="PieSizeclass.png",12,7,"cm",pointsize=6,res=900)
 #pie(table(data$SizeClass),labels = table(data$SizeClass),col = litir)
@@ -275,7 +275,7 @@ legend('topright', levels(as.factor(Mpmorph$Type)), fill=litir)
 
 The most dominant colour was blue (64 particles) followed by transparent (57 particles) and black (56 particles). Color distribution, including less abundant colors, is shown in the graph below.
 
-```{r pieColour, echo=FALSE, fig.cap="Color distribution of the microplastic particles.",dev.args = list(bg = 'transparent')}
+```{r pieColour, message=FALSE, warning=FALSE,echo=FALSE, fig.cap="Color distribution of the microplastic particles.",dev.args = list(bg = 'transparent'),dev = 'svg'}
 #png(filename="PieColour.png",12,7,"cm",pointsize=6,res=900)
 
 Mpcolour <- data %>% 
@@ -317,7 +317,7 @@ Blanks during sampling were taken from July onwards and are represented as black
 
 
 
-```{r barchartSD, echo=FALSE, fig.cap="Number of microplastic particles per sampling trip."}
+```{r barchartSD, message=FALSE, warning=FALSE,echo=FALSE, fig.cap="Number of microplastic particles per sampling trip.",dev.args = list(bg = 'transparent'),dev = 'svg'}
 
 DF <- ddply(data,.(Station,Sample,Blank),summarise,N=table(Type))
 # ddply(DF,.(blank),summarise,Mean=mean(N),SD=sd(N)) Mean and SD of all stations, both mp and blanks
@@ -334,7 +334,7 @@ myData <- rbind(Mean,SD)
 myData <- as.data.frame(myData)
 
 
-myData[3,myData[1,]== max(myData[1,],na.rm = T) ]
+
 plotTop <- max(myData[1,],na.rm = T) +
   myData[3,  myData[1,] == max(myData[1,],na.rm = T)] * 2
 
@@ -360,7 +360,7 @@ box()
 From the number of particles found per sampling trip the number of particles per cubic meter was calculated and is shown in the graph 
 As described above, the number of particles per cubic meters is very low with a mean of 0.9 (± 0.7) particles per cubic meter. 
 
-```{r m3, echo=FALSE, fig.cap="Microplastic particles per cubic meter per sampling trip"}
+```{r m3, message=FALSE, warning=FALSE,echo=FALSE, fig.cap="Microplastic particles per cubic meter per sampling trip",dev.args = list(bg = 'transparent'),dev = 'svg'}
 DF <- ddply(data[data$Blank!="yes",],.(Station,Sample, Blank),summarise,N=table(Type))
 DF <- ddply(DF,.(Station,Sample),summarise,N=sum(N))
 DF$N <- DF$N/(3*1.4)
@@ -434,7 +434,7 @@ Since the mean particle number was around 1.3 (± 2.3) per sampling trip and the
 * The requirements for sample quality and purity are higher when aiming to analyze smaller particles 
 
 # Sampling and processing dates of 2019
-```{r SamplingProcessingDates, echo=FALSE}
+```{r SamplingProcessingDates, message=FALSE, warning=FALSE, echo=FALSE, dev.args = list(bg = 'transparent'),dev = 'svg'}
 tafla <- read.csv("skjol/SamplingProcessingDates.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
 names(tafla) <- c("Sample ID","Sampling Date","Processing Date", "Put on Filter")
 tafla$`Sampling Date` <- as.Date(as.character(tafla$`Sampling Date`),"%d-%m-%Y")
@@ -452,9 +452,9 @@ Samples 907-909 were put onto a membrane filter (0.22 um) and samples 910-922 we
 The median digestion efficiency was 92 % which means that 92 % of the organic matter present in the beginning was digested. The average digestion efficiency was at 88 %. 
 The amount left behind on the filter after digestion correlates with the amount of organic matter originally present in the samples.
 Digestion efficiency was below the average in samples 915, 916, 917, 918 and 920. Possibly because of high content of diatoms. 
+All but the nitrocellulose filters were digestet as well which explains why digestion efficiancy is over 100% in many cases.
 
-
-```{r DigestionEfficiency, echo=FALSE}
+```{r DigestionEfficiency,message=FALSE, warning=FALSE,echo=FALSE}
 tafla <- read.csv("skjol/DigestionEfficiency.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
 tafla <- tafla[,-10]
 names(tafla)[c(2,4,6,7,8,9)] <- c("Repl.","Debris after digest. [g] incl. tare", "Debris after digest. [g]","Debris before digest. [g]","% left after digest.","Digest. EFFCY [%]")
@@ -466,7 +466,7 @@ tafla %>%
 
 
 
-```{r MyndDigestionEff, echo=FALSE,out.width='50%',fig.show='hold'}
+```{r MyndDigestionEff, message=FALSE, warning=FALSE,echo=FALSE,dev.args = list(bg = 'transparent'),dev = 'svg'}
 tafla <- read.csv("skjol/DigestionEfficiency.csv",header = T,check.names=FALSE,fileEncoding="UTF-8-BOM")
 tafla <- tafla[,-10]
 myvars <- c(tafla$`Sample ID`) %in% c(901,902,903,904,905,906)

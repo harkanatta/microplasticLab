@@ -1,5 +1,10 @@
 book_filename: "mp-protocol"
+repo: https://github.com/harkanatta/microplasticLab
 delete_merged_file: true
+newsession: yes
 language:
   ui:
     chapter_name: "Chapter "
+
+
+
